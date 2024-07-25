@@ -1,3 +1,11 @@
+# Photography Portfolio Website (Archive of Journeys)
+
+This is a website in the making using react, since I have not used react this will be my method of learning.
+
+The website will showcase pictures from my travels and will take up the styling as seen in my [Webflow design](https://brandjes.webflow.io).
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
