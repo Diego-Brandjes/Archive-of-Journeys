@@ -1,14 +1,28 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './pages/home/home.tsx'
+
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
+// Load pages
+// import Contact from './pages/contact/contact.tsx'
+// import Egypt from './pages/egypt/egypt.tsx'
+import Gear from './pages/gear/gear.tsx'
+import Home from './pages/home/home.tsx'
+// import Italy from './pages/italy/italy.tsx'
+// import Japan from './pages/japan/japan.tsx'
+
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Home />,
   },
+  {
+    path: "/gear",
+    element: <Gear />,
+  },
+
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
