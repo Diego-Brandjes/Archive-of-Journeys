@@ -50,7 +50,7 @@ function home() {
               noodles. The city's proximity to the Japanese Alps makes it a
               gateway for outdoor enthusiasts and nature lovers.
             </p>
-            <a href="/" aria-current="page" className="link-light w--current">
+            <a href="/Gear" aria-current="page" className="link-light w--current">
               See more of the Nakasendo chapter →{" "}
             </a>
           </div>
