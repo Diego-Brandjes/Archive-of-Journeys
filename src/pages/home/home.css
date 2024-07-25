@@ -1,0 +1,46 @@
+/* HOMEPAGE STYLING */
+.big-image {
+    object-fit: fill;
+    width: 100%;
+    padding-top: 0;
+    font-family: Oflgoudystmtt normal, sans-serif;
+    font-weight: 100;
+    overflow: visible;
+}
+
+.image-wide-border-1 {
+    opacity: 1;
+    background-image: url("https://cdn.prod.website-files.com/669fd653a78ebf02669a936a/66a044cf1bb31918b1b67c04_DSCF8915.jpg");
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: border-box;
+    border: 40px solid var(--secondary);
+    width: 100%;
+    height: 600px;
+}
+
+.image-wide-border-2 {
+    opacity: 1;
+    background-image: url("https://cdn.prod.website-files.com/669fd653a78ebf02669a936a/66a057d967d8703fc374667a_DSCF6948.jpg");
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: border-box;
+    border: 40px solid var(--secondary);
+    width: 100%;
+    height: 800px;
+}
+
+.image-wide-border-3 {
+    opacity: 1;
+    background-image: url("https://cdn.prod.website-files.com/669fd653a78ebf02669a936a/66a0137d942eb3db5dc9393d_CDSCF7041.jpg");
+    background-position: 50% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: border-box;
+    border: 40px solid var(--secondary);
+    border-radius: 0;
+    width: 100%;
+    height: 800px;
+}
