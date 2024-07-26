@@ -54,7 +54,6 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: var(--primary);
   cursor: auto;
   text-align: left;
 }
@@ -111,6 +110,15 @@ html, body {
   position: static;
   top: auto;
   right: auto;
+}
+.fullpage {
+  width: 100%;              /* Full width */
+  height: 100vw;             /* Full height */
+  display: flex;            /* Flex container */
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  text-align: center;      /* Center text inside the div */
+  background-color: var(--secondary); /* Optional: background color */
 }
 
 .panel {
