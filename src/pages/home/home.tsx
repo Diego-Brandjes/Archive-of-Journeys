@@ -3,11 +3,11 @@ import "./home.css";
 function home() {
 
   return (
-    <body className="body">
+    <body className="body primary">
       <section className="navbar">
         <div className="w-layout-hflex flex-block">
           <a
-            href="/"
+            href="/home"
             aria-current="page"
             className="logo-link w-inline-block w--current"
           >
