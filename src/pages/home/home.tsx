@@ -12,7 +12,7 @@ function home() {
             className="logo-link w-inline-block w--current"
           >
             <img
-              src="../public/logo.svg"
+              src="/logo.svg"
               loading="lazy"
               alt=""
               className="logo"
@@ -32,7 +32,7 @@ function home() {
       <section className="panel">
         <div className="imagefield">
           <img
-            src="../public/matsumoto.jpg"
+            src="/matsumoto.jpg"
             loading="lazy"
             sizes="100vw"
             alt=""
@@ -42,15 +42,15 @@ function home() {
         
         <section className="infofield-dark">
           <div className="div-block-overlap">
-            <h1 className="heading">Matsumoto</h1>
-            <p className="paragraph">
+            <h1 className="heading-light">Matsumoto</h1>
+            <p className="paragraph-light">
               Nestled in Japan's Nagano Prefecture, is renowned for its stunning
               alpine scenery and historical Matsumoto Castle. A cultural hub, it
               offers vibrant festivals, local crafts, and exquisite soba
               noodles. The city's proximity to the Japanese Alps makes it a
               gateway for outdoor enthusiasts and nature lovers.
             </p>
-            <a href="/Gear" aria-current="page" className="link-light w--current">
+            <a href="/Contact" aria-current="page" className="link-light w--current">
               See more of the Nakasendo chapter →{" "}
             </a>
           </div>
@@ -61,8 +61,8 @@ function home() {
         <div className="image-wide-border-1"></div>
         <section className="infofield-light">
           <div className="div-block-no-overlap">
-            <h1 className="heading">Sinai Desert </h1>
-            <p className="paragraph">
+            <h1 className="heading-dark">Sinai Desert </h1>
+            <p className="paragraph-dark">
               A vast and rugged expanse in Egypt, is known for its dramatic
               landscapes, including towering mountains and vast sand dunes. This
               desert is a blend of stark beauty and profound spiritual heritage.
@@ -77,7 +77,7 @@ function home() {
       <section className="panel">
         <div className="imagefield">
           <img
-            src="https://cdn.prod.website-files.com/669fd653a78ebf02669a936a/66a05373c0c1ae6b5b1c6433_DSCF4919.jpg"
+            src="/ueno.jpg"
             loading="lazy"
             sizes="100vw"
             alt=""
@@ -86,8 +86,8 @@ function home() {
         </div>
         <section className="infofield-dark">
           <div className="div-block-overlap">
-            <h1 className="heading">Ueno</h1>
-            <p className="paragraph">
+            <h1 className="heading-light">Ueno</h1>
+            <p className="paragraph-light">
               Ueno, a vibrant district in Tokyo, is famed for its expansive
               park, rich cultural institutions, and bustling markets. Visitors
               can enjoy panoramic views of the Tokyo Skytree from various
@@ -108,8 +108,8 @@ function home() {
 
         <section className="infofield-light">
           <div className="div-block-no-overlap">
-            <h1 className="heading">Fukuoka </h1>
-            <p className="paragraph">
+            <h1 className="heading-dark">Fukuoka </h1>
+            <p className="paragraph-dark">
               Fukuoka, a vibrant city on Japan's Kyushu island, is renowned for
               its lively yattai culture. These mobile food stalls line the
               streets, offering a variety of delicious local dishes such as
