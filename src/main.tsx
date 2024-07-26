@@ -5,7 +5,7 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 // Load pages
-// import Contact from './pages/contact/contact.tsx'
+import Contact from './pages/contact/contact.tsx'
 // import Egypt from './pages/egypt/egypt.tsx'
 import Gear from './pages/gear/gear.tsx'
 import Home from './pages/home/home.tsx'
@@ -21,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/gear",
     element: <Gear />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
   },
 
 ]);
