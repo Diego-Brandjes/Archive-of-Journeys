@@ -13,8 +13,8 @@
 }
 .image-wide-border-5 {
     opacity: 1;
-    background-image: url("https://cdn.prod.website-files.com/669fd653a78ebf02669a936a/66a1620729ab9f22d2896456_slide1.jpg");
-    background-position: 50% 100%;
+    background-image: url("../public/fuji-lens.jpg");
+    background-position: 50% 0%;
     background-size: cover;
     background-attachment: fixed;
     background-clip: border-box;
@@ -27,7 +27,7 @@
 
 
 .spacer {
-height: 500px;
+height: 400px;
 }
 .flex-block-5 {
 justify-content: flex-start;

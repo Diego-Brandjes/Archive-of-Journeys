@@ -35,7 +35,16 @@ return (
             <section className="infofield-dark">
                 <div className="div-block-no-overlap">
                     <h1 className="heading">My Gear</h1>
-                    <p className="paragraph">The Fujifilm X-T30 II is a compact, versatile mirrorless camera that boasts a 26.1MP APS-C X-Trans CMOS 4 sensor and X-Processor 4. <br></br>It offers fast autofocus, 4K video recording, and impressive low-light performance.<br></br>I've been using this camera since 2023.
+                    <p className="paragraph">
+                        The Fujifilm X-T30 II is a compact, versatile mirrorless camera that boasts 
+                        a 26.1MP APS-C X-Trans CMOS 4 sensor and X-Processor 4.
+                    </p>
+                    <p className="paragraph">
+                        It offers fast autofocus, 4K video recording, and impressive low-light 
+                        performance. 
+                    </p>
+                    <p className="paragraph">
+                        I've been using this camera since 2023.
                     </p>
                 </div>
             </section>
@@ -48,7 +57,16 @@ return (
             <section className="infofield-dark">
                 <div className="div-block-no-overlap">
                     <h1 className="heading">Lenses</h1>
-                    <p className="paragraph">I use two lenses for my Fujifilm camera: the versatile Fujifilm 15-45mm, ideal for wide-angle shots and everyday use, and the Canon FD 35-70mm, combined with a converter, which provides a classic manual focus experience and a broader zoom range. Together, they cover a wide range of photographic needs. 
+                    <p className="paragraph">
+                        My main lens is the versatile Fujifilm 15-45mm lens, 
+                        ideal for wide-angle shots and everyday use. 
+                    </p>
+                    <p className="paragraph">
+                        My second lens is the Canon FD 35-70mm, 
+                        combined with an x-mount converter. 
+                    </p>
+                    <p className="paragraph">
+                        Both of these lenses cover a wide range of photographic needs. 
                     </p>
                 </div>
             </section>
