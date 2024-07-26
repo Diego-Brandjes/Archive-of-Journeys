@@ -9,7 +9,7 @@
 }
 
 .image-wide-border-1 {
-    background-image: url("https://cdn.prod.website-files.com/669fd653a78ebf02669a936a/66a044cf1bb31918b1b67c04_DSCF8915.jpg");
+    background-image: url("../public/sinai-road.jpg");
     background-position: 50%;
     background-size: cover;
     background-attachment: fixed;
@@ -20,7 +20,7 @@
 }
 
 .image-wide-border-2 {
-    background-image: url("https://cdn.prod.website-files.com/669fd653a78ebf02669a936a/66a057d967d8703fc374667a_DSCF6948.jpg");
+    background-image: url("../public/ohori-park.jpg");
     background-position: 50%;
     background-size: cover;
     background-attachment: fixed;
@@ -31,7 +31,7 @@
 }
 
 .image-wide-border-3 {
-    background-image: url("https://cdn.prod.website-files.com/669fd653a78ebf02669a936a/66a0137d942eb3db5dc9393d_CDSCF7041.jpg");
+    background-image: url("../public/fukuoka-stalls.jpg");
     background-position: 50% 100%;
     background-size: cover;
     background-attachment: fixed;

@@ -12,7 +12,7 @@ function home() {
             className="logo-link w-inline-block w--current"
           >
             <img
-              src="https://cdn.prod.website-files.com/669fd653a78ebf02669a936a/66a0180d23b0eabef44432b2_Component%201.svg"
+              src="../public/logo.svg"
               loading="lazy"
               alt=""
               className="logo"
@@ -32,7 +32,7 @@ function home() {
       <section className="panel">
         <div className="imagefield">
           <img
-            src="https://cdn.prod.website-files.com/669fd653a78ebf02669a936a/66a0179f2e77d8897c51aa5d_DSCF4565.jpg"
+            src="../public/matsumoto.jpg"
             loading="lazy"
             sizes="100vw"
             alt=""
