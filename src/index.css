@@ -38,11 +38,11 @@ html, body {
 }
 .div-block-no-overlap {
   text-align: left;
-  margin-top: 0;
   padding-left: 60px;
 }
 .panel {
   width: 100%;
+  height: auto;
 }
 .section {
   background-image: url("https://cdn.prod.website-files.com/669fd653a78ebf02669a936a/66a00048adca114c8154da72_DSCF7051%20-%20Copy.jpg");
@@ -178,14 +178,11 @@ html, body {
   aspect-ratio: auto;
   background-color: var(--secondary);
   width: 100%;
-  height: 400px;
-  margin-top: 0;
-  padding-top: 0;
-  padding-left: 0;
+  height: auto;
+  padding-bottom: 40px;
+  padding-top: 40px;
   position: static;
   top: auto;
-  bottom: 0%;
-  left: 0%;
   right: auto;
 
   color: var(--dark-font-color);
@@ -195,13 +192,11 @@ html, body {
   z-index: auto;
   aspect-ratio: auto;
   width: 100%;
-  height: 500px;
-  margin-top: 0;
-  padding-left: 0;
+  height: auto;
+  padding-bottom: 40px;
+  padding-top: 40px;
   position: static;
   top: auto;
-  bottom: 0%;
-  left: 0%;
   right: auto;
 
   color: var(--light-font-color);
@@ -212,7 +207,7 @@ html, body {
   width: auto;
   height: 30%;
   margin-top: 0;
-  padding-left: 0;
+  margin-bottom: 0;
   font-family: "Sorts Mill Goudy", sans-serif;
   font-style: italic;
   font-size: 128px;
@@ -222,7 +217,6 @@ html, body {
 .paragraph {
   width: 60%;
   margin-bottom: 29px;
-  padding-left: 0;
   font-family: "Sorts Mill Goudy", sans-serif;
   font-style: normal;  
   font-size: 32px;
