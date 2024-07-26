@@ -34,16 +34,16 @@ return (
         <div className="w-layout-hflex flex-block-5">
             <section className="infofield-dark">
                 <div className="div-block-no-overlap">
-                    <h1 className="heading">My Gear</h1>
-                    <p className="paragraph">
+                    <h1 className="heading-light">My Gear</h1>
+                    <p className="paragraph-light">
                         The Fujifilm X-T30 II is a compact, versatile mirrorless camera that boasts 
                         a 26.1MP APS-C X-Trans CMOS 4 sensor and X-Processor 4.
                     </p>
-                    <p className="paragraph">
+                    <p className="paragraph-light">
                         It offers fast autofocus, 4K video recording, and impressive low-light 
                         performance. 
                     </p>
-                    <p className="paragraph">
+                    <p className="paragraph-light">
                         I've been using this camera since 2023.
                     </p>
                 </div>
@@ -56,16 +56,16 @@ return (
             <div className="image-wide-border-5"></div>
             <section className="infofield-dark">
                 <div className="div-block-no-overlap">
-                    <h1 className="heading">Lenses</h1>
-                    <p className="paragraph">
+                    <h1 className="heading-light">Lenses</h1>
+                    <p className="paragraph-light">
                         My main lens is the versatile Fujifilm 15-45mm lens, 
                         ideal for wide-angle shots and everyday use. 
                     </p>
-                    <p className="paragraph">
+                    <p className="paragraph-light">
                         My second lens is the Canon FD 35-70mm, 
                         combined with an x-mount converter. 
                     </p>
-                    <p className="paragraph">
+                    <p className="paragraph-light">
                         Both of these lenses cover a wide range of photographic needs. 
                     </p>
                 </div>

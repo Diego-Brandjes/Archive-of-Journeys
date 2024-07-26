@@ -24,11 +24,10 @@
     height: 800px;
 }
 
-
-
 .spacer {
-height: 400px;
+height: 300px;
 }
+
 .flex-block-5 {
 justify-content: flex-start;
 align-items: flex-start;
