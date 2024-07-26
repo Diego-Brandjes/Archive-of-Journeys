@@ -23,7 +23,7 @@
 }
 .image-block-border-secondary {
   opacity: 1;
-  background-position: 50% 0%;
+  background-position: 40% 100%;
   background-size: cover;
   background-attachment: fixed;
   background-clip: border-box;
