@@ -2,6 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 
 import './index.css'
+import "./text.css";
+import "./images.css";
+import "./navigation.css";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 // Load pages

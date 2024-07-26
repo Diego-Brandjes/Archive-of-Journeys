@@ -1,0 +1,27 @@
+/* TEXT STYLING */
+.light-font {
+    color: var(--light-font-color);
+}
+.dark-font {
+    color: var(--dark-font-color);
+}
+.less-wide-text {
+    width: 80%;
+}
+.even-less-wide-text {
+    width: 60%;
+}
+
+/* LINK STYLING */
+.link-light.w--current {
+    color: var(--light-font-color);
+}
+.link-light.w--current:hover {
+    color: var(--text-hover-color);
+}
+.link-dark.w--current {
+    color: var(--dark-font-color);
+}
+.link-dark.w--current:hover {
+    color: var(--text-hover-color);
+}

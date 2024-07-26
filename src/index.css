@@ -63,7 +63,13 @@ html, body {
   background-color: var(--secondary);
 }
 
+.secondary {
+  background-color: var(--secondary);
+}
 
+.primary {
+  background-color: var(--primary);
+}
 
 /* BOXES & CONTAINERS */
 .w-layout-hflex {
@@ -89,143 +95,9 @@ html, body {
   text-align: left;
   padding-left: 60px;
 }
-.panel {
-  width: 100%;
-  height: auto;
-}
-.section {
-  background-image: url("https://cdn.prod.website-files.com/669fd653a78ebf02669a936a/66a00048adca114c8154da72_DSCF7051%20-%20Copy.jpg");
-  background-position: 50%;
-  background-size: cover;
-  background-clip: border-box;
-  height: 100%;
-  margin-top: 0;
-  padding-top: 0;
-}
-
-
-/* NAVIGATION STYLING */
-.navbar {
-  z-index: 100;
-  aspect-ratio: auto;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  display: flex;
-  position: absolute;
-}
-.navbar_btns {
-  justify-content: flex-end;
-  width: 100%;
-}
-.flex-block {
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-}
-.locations_box {
-  width: 30%;
-  padding-left: 0;
-}
-.location_btn {
-  border: 1px solid var(--secondary);
-  justify-content: flex-end;
-  align-items: center;
-  width: 100%;
-  height: 50px;
-  margin-top: 0;
-  margin-right: 0;
-  padding-top: 0;
-  padding-left: 0;
-  padding-right: 20px;
-  font-size: 140px;
-  display: flex;
-}
-.location_btn:hover {
-  background-color: var(--transparant);
-}
-.location_btn:focus {
-  border-radius: 0;
-}
-.menu_btn {
-  border: 1px solid var(--secondary);
-  justify-content: flex-end;
-  align-items: center;
-  width: 30%;
-  height: 50px;
-  margin-top: 0;
-  margin-right: 50px;
-  padding-top: 0;
-  padding-left: 0;
-  padding-right: 0;
-  font-size: 140px;
-  display: flex;
-}
-.small-screen-menu-btn {
-  display: none;
-}
-
-
-/* HAMBURGER MENU STYLING */
-.hamburger-button {
-  background-color: var(--transparant);
-  border-radius: 100px;
-  width: 100%;
-  height: 50px;
-  padding: 0;
-  position: static;
-}
-.hamburger-button:hover {
-  border-radius: 0;
-}
-.hamburger-button.w--open {
-  background-color: var(--secondary);
-  border-radius: 0;
-  width: 100%;
-}
-.hamburger-menu-item {
-  opacity: 1;
-  color: var(--primary);
-  text-align: right;
-  mix-blend-mode: normal;
-  background-color: var(--secondary);
-  padding-left: 0;
-  padding-right: 20px;
-  font-family: Montserrat, sans-serif;
-  font-size: 30px;
-  font-weight: 200;
-}
-.hamburger-menu-item:hover {
-  color: var(--secondary);
-  background-color: var(--transparant);
-  border: 1px solid var(--secondary);
-}
-.hamburger-menu {
-  background-color: var(--transparant);
-  width: 100%;
-}
-.hamburger-menu-list {
-  background-color: var(--transparant);
-  margin-left: 1px;
-  margin-right: 1px;
-  padding-top: 10px;
-}
-.menu-text-block {
-  color: var(--light-font-color);
-  text-align: right;
-  font-family: Montserrat, sans-serif;
-  font-size: 35px;
-  font-style: normal;
-  font-weight: 100;
-  line-height: 100%;
-}
-
-
-/* TEXT STYLING */
 .infofield-light {
   z-index: auto;
   aspect-ratio: auto;
-  background-color: var(--secondary);
   width: 100%;
   height: auto;
   padding-bottom: 40px;
@@ -257,54 +129,20 @@ html, body {
   top: auto;
   right: auto;
 }
-.heading-light {
-  color: var(--light-font-color);
-}
-.paragraph-light {
-  color: var(--light-font-color);
-}
-.heading-dark {
-  color: var(--dark-font-color);
-}
-.paragraph-dark {
-  color: var(--dark-font-color);
-}
-.less-wide-text {
-  width: 80%;
-}
-.even-less-wide-text {
-  width: 60%;
-}
-
-
-/* IMAGE STYLING */
-.imagefield {
-  z-index: -1;
-  position: static;
-}
-.logo {
-  max-width: 100%;
-  margin-left: 24px;
-}
-.logo-link {
+.panel {
   width: 100%;
-  max-width: 100%;
+  height: auto;
 }
+.spacer {
+  height: 300px;
+}
+.flex-block-side {
+  justify-content: flex-start;
+  align-items: flex-start;
+}  
 
 
-/* LINK STYLING */
-.link-light.w--current {
-  color: var(--light-font-color);
-}
-.link-light.w--current:hover {
-  color: var(--text-hover-color);
-}
-.link-dark.w--current {
-  color: var(--dark-font-color);
-}
-.link-dark.w--current:hover {
-  color: var(--text-hover-color);
-}
+
 
 
 @media screen and (max-width: 990px) {

@@ -31,41 +31,41 @@ return (
         </section>
         <div className="spacer"></div>
 
-        <div className="w-layout-hflex flex-block-5">
-            <section className="infofield-dark">
+        <div className="w-layout-hflex flex-block-side">
+            <section className="infofield primary">
                 <div className="div-block-no-overlap">
-                    <h1 className="heading-light">My Gear</h1>
-                    <p className="paragraph-light">
+                    <h1 className="heading light-font">My Gear</h1>
+                    <p className="paragraph light-font">
                         The Fujifilm X-T30 II is a compact, versatile mirrorless camera that boasts 
                         a 26.1MP APS-C X-Trans CMOS 4 sensor and X-Processor 4.
                     </p>
-                    <p className="paragraph-light">
+                    <p className="paragraph light-font">
                         It offers fast autofocus, 4K video recording, and impressive low-light 
                         performance. 
                     </p>
-                    <p className="paragraph-light">
+                    <p className="paragraph light-font">
                         I've been using this camera since 2023.
                     </p>
                 </div>
             </section>
-            <div className="image-wide-border-4"></div>
+            <div className="image-block-border" style={{ backgroundImage: `url("/xt30ii.jpg")` }}></div>
         </div>
         
 
-        <div className="w-layout-hflex flex-block-5">
-            <div className="image-wide-border-5"></div>
-            <section className="infofield-dark">
+        <div className="w-layout-hflex flex-block-side">
+        <div className="image-block-border" style={{ backgroundImage: `url("/fuji-lens.jpg")` }}></div>
+        <section className="infofield primary">
                 <div className="div-block-no-overlap">
-                    <h1 className="heading-light">Lenses</h1>
-                    <p className="paragraph-light">
+                    <h1 className="heading light-font">Lenses</h1>
+                    <p className="paragraph light-font">
                         My main lens is the versatile Fujifilm 15-45mm lens, 
                         ideal for wide-angle shots and everyday use. 
                     </p>
-                    <p className="paragraph-light">
+                    <p className="paragraph light-font">
                         My second lens is the Canon FD 35-70mm, 
                         combined with an x-mount converter. 
                     </p>
-                    <p className="paragraph-light">
+                    <p className="paragraph light-font">
                         Both of these lenses cover a wide range of photographic needs. 
                     </p>
                 </div>
