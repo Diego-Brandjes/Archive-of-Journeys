@@ -1,0 +1,20 @@
+{
+  "title": "Italy",
+  "logo": "/logo.svg",
+  "bigImage": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Falittlenomad.com%2Fwp-content%2Fuploads%2F2019%2F10%2Fpanorama-of-cairo.jpg&f=1&nofb=1&ipt=b028c72b82874b41bf1d90595b83d63662607d8c2b2f219668eee6e162bae075&ipo=images",
+  "chapters": [
+    {
+      "chapter": "Chapter one: ",
+      "image": "",
+      "link": "",
+      "paragraphs": []
+    },
+    {
+      "chapter": "Chapter two: ",
+      "image": "",
+      "link": "",
+      "paragraphs": []
+    }
+    
+  ]
+}

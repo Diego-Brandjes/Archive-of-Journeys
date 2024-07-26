@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-
 import './index.css'
 import "./text.css";
 import "./images.css";
@@ -9,12 +8,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 // Load pages
 import Contact from './pages/contact/contact.tsx'
-// import Egypt from './pages/egypt/egypt.tsx'
 import Gear from './pages/gear/gear.tsx'
 import Home from './pages/home/home.tsx'
-// import Italy from './pages/italy/italy.tsx'
-import Japan from './pages/japan/japan.tsx'
-
+import CountrySelector from './pages/countryselector.tsx'
 
 const router = createBrowserRouter([
   {
@@ -30,14 +26,13 @@ const router = createBrowserRouter([
     element: <Contact />,
   },
   {
-    path: "/Japan",
-    element: <Japan />,
+    path: "/country/:country",
+    element: <CountrySelector />,
   },
-
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-  <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )
