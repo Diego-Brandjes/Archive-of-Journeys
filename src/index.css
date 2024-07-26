@@ -2,6 +2,8 @@
 
 :root {
   
+  font-family: "Sorts Mill Goudy", sans-serif;
+
   --primary: #000000;
   --secondary: #fff2d3;
   --light-font-color: #fff2d3;
@@ -13,7 +15,6 @@
     width: auto;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: "Sorts Mill Goudy", sans-serif;
     font-style: italic;
     font-weight: 100;
     line-height: 100%;
@@ -25,7 +26,6 @@
     width: auto;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: "Sorts Mill Goudy", sans-serif;
     font-style: italic;
     font-weight: 100;
     line-height: 100%;
@@ -35,11 +35,17 @@
 
   p {
     margin-bottom: 29px;
-    font-family: "Sorts Mill Goudy", sans-serif;
     font-style: normal;  
     font-size: 32px;
     font-weight: 100;
     line-height: 30px;
+  }
+
+  a {
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 100;
+    text-decoration: none;
   }
  
 }
@@ -287,33 +293,17 @@ html, body {
 
 
 /* LINK STYLING */
-.link-light {
-  font-family: "Sorts Mill Goudy", sans-serif;
-  font-style: normal;
-}
 .link-light.w--current {
   color: var(--light-font-color);
-  font-size: 36px;
-  font-style: normal;
-  text-decoration: none;
 }
 .link-light.w--current:hover {
   color: var(--text-hover-color);
 }
-.link-dark {
-  font-family: "Sorts Mill Goudy", sans-serif;
-  font-style: normal;
-}
 .link-dark.w--current {
   color: var(--dark-font-color);
-  padding-left: 0;
-  font-size: 36px;
-  font-style: normal;
-  text-decoration: none;
 }
 .link-dark.w--current:hover {
-  color: #ffc060;
-  font-weight: 100;
+  color: var(--text-hover-color);
 }
 
 
