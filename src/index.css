@@ -8,6 +8,40 @@
   --dark-font-color: #9e5700;
   --transparant: rgba(0, 0, 0, 0);
   --text-hover-color: #ffce58;
+
+  h1 {
+    width: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Sorts Mill Goudy", sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 100%;
+    font-size: 128px;
+    letter-spacing: -7px;
+  }
+
+  h2 {
+    width: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Sorts Mill Goudy", sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 100%;
+    font-size: 60px;
+    letter-spacing: 0px;
+  }
+
+  p {
+    margin-bottom: 29px;
+    font-family: "Sorts Mill Goudy", sans-serif;
+    font-style: normal;  
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 30px;
+  }
+ 
 }
 
 html, body {
@@ -18,6 +52,11 @@ html, body {
   cursor: auto;
   text-align: left;
 }
+
+.body-light {
+  background-color: var(--secondary);
+}
+
 
 
 /* BOXES & CONTAINERS */
@@ -189,7 +228,7 @@ html, body {
   top: auto;
   right: auto;
 }
-.infofield-small {
+.infofield-transparent {
   z-index: auto;
   aspect-ratio: auto;
   background-color: var(--transparant);
@@ -213,50 +252,22 @@ html, body {
   right: auto;
 }
 .heading-light {
-  letter-spacing: -7px;
-  width: auto;
-  height: 30%;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: "Sorts Mill Goudy", sans-serif;
-  font-style: italic;
-  font-size: 128px;
-  font-weight: 100;
-  line-height: 100%;
   color: var(--light-font-color);
 }
 .paragraph-light {
-  width: 60%;
-  margin-bottom: 29px;
-  font-family: "Sorts Mill Goudy", sans-serif;
-  font-style: normal;  
-  font-size: 32px;
-  font-weight: 100;
-  line-height: 30px;
   color: var(--light-font-color);
 }
 .heading-dark {
-  letter-spacing: -7px;
-  width: auto;
-  height: 30%;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: "Sorts Mill Goudy", sans-serif;
-  font-style: italic;
-  font-size: 128px;
-  font-weight: 100;
-  line-height: 100%;
   color: var(--dark-font-color);
 }
 .paragraph-dark {
-  width: 60%;
-  margin-bottom: 29px;
-  font-family: "Sorts Mill Goudy", sans-serif;
-  font-style: normal;  
-  font-size: 32px;
-  font-weight: 100;
-  line-height: 30px;
   color: var(--dark-font-color);
+}
+.less-wide-text {
+  width: 80%;
+}
+.even-less-wide-text {
+  width: 60%;
 }
 
 
