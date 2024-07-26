@@ -10,7 +10,7 @@ import Contact from './pages/contact/contact.tsx'
 import Gear from './pages/gear/gear.tsx'
 import Home from './pages/home/home.tsx'
 // import Italy from './pages/italy/italy.tsx'
-// import Japan from './pages/japan/japan.tsx'
+import Japan from './pages/japan/japan.tsx'
 
 
 const router = createBrowserRouter([
@@ -25,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact />,
+  },
+  {
+    path: "/Japan",
+    element: <Japan />,
   },
 
 ]);
