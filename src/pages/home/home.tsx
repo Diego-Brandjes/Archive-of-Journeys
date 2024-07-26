@@ -43,14 +43,14 @@ function home() {
         <section className="infofield-dark">
           <div className="div-block-overlap">
             <h1 className="heading-light">Matsumoto</h1>
-            <p className="paragraph-light">
+            <p className="paragraph-light even-less-wide-text">
               Nestled in Japan's Nagano Prefecture, is renowned for its stunning
               alpine scenery and historical Matsumoto Castle. A cultural hub, it
               offers vibrant festivals, local crafts, and exquisite soba
               noodles. The city's proximity to the Japanese Alps makes it a
               gateway for outdoor enthusiasts and nature lovers.
             </p>
-            <a href="/Contact" aria-current="page" className="link-light w--current">
+            <a href="/japan" aria-current="page" className="link-light w--current">
               See more of the Nakasendo chapter →{" "}
             </a>
           </div>
@@ -62,12 +62,12 @@ function home() {
         <section className="infofield-light">
           <div className="div-block-no-overlap">
             <h1 className="heading-dark">Sinai Desert </h1>
-            <p className="paragraph-dark">
+            <p className="paragraph-dark even-less-wide-text">
               A vast and rugged expanse in Egypt, is known for its dramatic
               landscapes, including towering mountains and vast sand dunes. This
               desert is a blend of stark beauty and profound spiritual heritage.
             </p>
-            <a href="/" aria-current="page" className="link-dark w--current">
+            <a href="/gear" aria-current="page" className="link-dark w--current">
               See more of the Egypt chapter →{" "}
             </a>
           </div>
@@ -87,7 +87,7 @@ function home() {
         <section className="infofield-dark">
           <div className="div-block-overlap">
             <h1 className="heading-light">Ueno</h1>
-            <p className="paragraph-light">
+            <p className="paragraph-light even-less-wide-text">
               Ueno, a vibrant district in Tokyo, is famed for its expansive
               park, rich cultural institutions, and bustling markets. Visitors
               can enjoy panoramic views of the Tokyo Skytree from various
@@ -95,7 +95,7 @@ function home() {
               featuring attractions like Ueno Zoo, museums, and the lively
               Ameya-Yokocho market.
             </p>
-            <a href="/" aria-current="page" className="link-light w--current">
+            <a href="/contact" aria-current="page" className="link-light w--current">
               See more of the Tokyo chapter →{" "}
             </a>
           </div>
@@ -109,7 +109,7 @@ function home() {
         <section className="infofield-light">
           <div className="div-block-no-overlap">
             <h1 className="heading-dark">Fukuoka </h1>
-            <p className="paragraph-dark">
+            <p className="paragraph-dark even-less-wide-text">
               Fukuoka, a vibrant city on Japan's Kyushu island, is renowned for
               its lively yattai culture. These mobile food stalls line the
               streets, offering a variety of delicious local dishes such as
