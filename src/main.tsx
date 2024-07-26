@@ -7,14 +7,19 @@ import "./navigation.css";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 // Load pages
+import CountrySelector from './pages/countryselector.tsx'
+import Home from './pages/home/home.tsx'
 import Contact from './pages/contact/contact.tsx'
 import Gear from './pages/gear/gear.tsx'
-import Home from './pages/home/home.tsx'
-import CountrySelector from './pages/countryselector.tsx'
+import NotFound from './pages/notfound.tsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/home",
     element: <Home />,
   },
   {
@@ -28,6 +33,10 @@ const router = createBrowserRouter([
   {
     path: "/country/:country",
     element: <CountrySelector />,
+  },
+  {
+    path: "*",  // Catch-all route
+    element: <NotFound />,
   },
 ]);
 
