@@ -102,7 +102,7 @@ const CountrySelector: React.FC = () => {
       {data.chapters.map((item, index) => (
         <a href={item.link} aria-current="page" className="link-dark w--current clickable-div" key={index}>
           <div className="w-layout-hflex flex-block-side">
-            <section className="infofield secondary">
+            <section className="infofield secondary less-wide-text">
               <div className="div-block-no-overlap">
                 <h2 className="heading">{item.chapter}</h2>
                 {item.paragraphs.map((paragraph, i) => (
