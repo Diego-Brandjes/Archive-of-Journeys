@@ -1,19 +1,17 @@
 {
-  "title": "Italy",
+  "title": "Egypt",
   "logo": "/logo.svg",
   "bigImage": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Falittlenomad.com%2Fwp-content%2Fuploads%2F2019%2F10%2Fpanorama-of-cairo.jpg&f=1&nofb=1&ipt=b028c72b82874b41bf1d90595b83d63662607d8c2b2f219668eee6e162bae075&ipo=images",
   "chapters": [
     {
-      "chapter": "Chapter one: ",
-      "image": "",
-      "link": "",
-      "paragraphs": []
-    },
-    {
-      "chapter": "Chapter two: ",
-      "image": "",
-      "link": "",
-      "paragraphs": []
+      "chapter": "Chapter one: The Sinai Peninsula ",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.urlaubsguru.at%2Fwp-content%2Fuploads%2F2019%2F08%2FSharm-el-Sheikh-shutterstock_786620743.jpg&f=1&nofb=1&ipt=ea08cb1820f4e9f98e975fe502655ca0a574b313326b56f3eadaa7916a420643&ipo=images",
+      "link": "/sinai",
+      "paragraphs": [
+        "Spending time in the region was a humbeling experience, lots of amzing views and trips through the deserts at night",
+        "The desert has shown me an amazing sunrise and the waters have shown me a diverse sealife",
+        "Read more →"
+      ]
     }
     
   ]

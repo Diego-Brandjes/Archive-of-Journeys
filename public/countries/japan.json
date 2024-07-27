@@ -8,7 +8,7 @@
       "image": "/tokyo-bay.jpg",
       "link": "/tokyo",
       "paragraphs": [
-        "Arriving in late March, I witnessed the Cherry Blossoms at their end, adding to the city's charm.",
+        "Returning in late March, I witnessed the Cherry Blossoms at their end, adding to the city's charm.",
         "Tokyo became a cherished home, filled with unforgettable memories and vibrant culture.",
         "Read more →"
       ]
@@ -18,8 +18,8 @@
       "image": "/yamanashi.jpg",
       "link": "/yamanashi",
       "paragraphs": [
-        "Yamanashi is known for its beautiful mountains and delicious grapes.",
-        "I enjoyed hiking and sampling local wines.",
+        "Yamanashi is known for its beautiful mountains and cozy rural towns.",
+        "I spend some time here cycling through the region and going to multiple shrines.",
         "Read more →"
       ]
     },
@@ -48,8 +48,8 @@
       "image": "/fukuoka.jpg",
       "link": "/fukuoka",
       "paragraphs": [
-        "Traveling south to Fukuoka revealed coastal beauty and rich cultural heritage.",
-        "I savored regional cuisine and scenic views.",
+        "Traveling south to Hiroshima and later on Fukuoka revealed coastal beauty and rich cultural heritage.",
+        "I tried the regional cuisine and saw many scenic views such as Miyajima.",
         "Read more →"
       ]
     },
@@ -59,7 +59,7 @@
       "link": "/okinawa",
       "paragraphs": [
         "Okinawa's tropical climate and unique traditions provided a relaxing yet enlightening experience.",
-        "I enjoyed the pristine beaches and local customs.",
+        "Enjoying the pristine beaches and local customs was an amazing experience.",
         "Read more →"
       ]
     }
