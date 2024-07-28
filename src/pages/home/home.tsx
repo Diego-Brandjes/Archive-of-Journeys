@@ -1,7 +1,10 @@
+import { useState } from "react";
 import "./home.css";
 
 function home() {
 
+  const [location, setLocation] = useState(false);
+  const [more, setmore] = useState(false);
   return (
     <body className="body primary">
       <section className="navbar">
@@ -18,9 +21,75 @@ function home() {
               className="logo"
             />
           </a>
-          <div className="w-layout-hflex navbar_btns">
-            <div className="w-layout-vflex locations_box"></div>
+
+
+
+          <div className="w-layout-hflex right navbar_btns">
+            <div className="w-layout-vflex button">
+              <div className="button light-font" onClick={()=>setLocation(!location)}>
+                <div>
+                  <p className="right other-font">
+                    Locations
+                  </p>
+                </div>
+              </div>
+
+              {location && (
+              <div className="button light-font">
+                <p className="right other-font">
+                  Japan
+                </p>            
+              </div>
+              )}
+
+              {location && (
+              <div className="button light-font">
+                <p className="right other-font">
+                  Egypt
+                </p>            
+              </div>
+              )}
+
+              {location && (
+              <div className="button light-font">
+                <p className="right other-font">
+                  Italy
+                </p>            
+              </div>
+              )}
+
+            </div>
+            
+            <div className="w-layout-vflex button">
+              <div className="button light-font" onClick={()=>setmore(!more)}>
+                <p className="right other-font">
+                  More
+                </p>
+              </div>
+
+              {more && (
+              <div className="button light-font">
+                <p className="right other-font">
+                  Contact
+                </p>            
+              </div>
+              )}
+
+              {more && (
+              <div className="button light-font">
+                <p className="right other-font">
+                  Gear
+                </p>            
+              </div>
+              )}
+
+            </div>
           </div>
+
+
+
+
+
           <div
             className="w-nav-overlay"
             data-wf-ignore=""

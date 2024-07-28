@@ -11,6 +11,11 @@
 .even-less-wide-text {
     width: 60%;
 }
+.right {
+
+    text-align: right;
+    padding-left: 50px;
+}
 
 /* LINK STYLING */
 .link-light.w--current {
