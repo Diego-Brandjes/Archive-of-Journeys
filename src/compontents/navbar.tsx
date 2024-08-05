@@ -53,31 +53,21 @@ const Navbar: React.FC<NavbarProps> = ({ dark }) => {
                         </div>
                         
                         <div className="block">
-                            <div className={dark ? "dark-font dark-button" : "light-font button"} onClick={()=>{
-                                setMore(!more)
-                                setLocation(false)
-                                }}>
+                            <a href="/gear" aria-current="page" className={dark ? "dark-font dark-button" : "light-font button"}>
                                 <p className="other-font">
-                                    More
-                                </p>
-                            </div>
-
-                            {more && (
-                            <div className="dropdown-content">
-                                <a href="/gear" aria-current="page" className={dark ? "dark-font dark-button" : "light-font button"}>
-                                    <p className="other-font">
-                                    Gear
-                                    </p>            
-                                </a>
-
-                                <a href="/contact" aria-current="page" className={dark ? "dark-font dark-button" : "light-font button"}>
-                                    <p className="other-font">
-                                    Contact
-                                    </p>            
-                                </a>
-                            </div>
-                            )}
+                                Gear 
+                                </p>            
+                            </a>
                         </div>
+
+                        <div className="block">
+                            <a href="/contact" aria-current="page" className={dark ? "dark-font dark-button" : "light-font button"}>
+                                <p className="other-font">
+                                Contact 
+                                </p>            
+                            </a>
+                        </div>
+
                     </div>
                 </div>
 
@@ -115,6 +105,18 @@ const Navbar: React.FC<NavbarProps> = ({ dark }) => {
                                         <a href="/country/egypt" aria-current="page" className={dark ? "dark-font dark-button" : "light-font button"}>
                                             <p className="other-font">
                                             Egypt
+                                            </p>            
+                                        </a>
+
+                                        <a href="/country/egypt" aria-current="page" className={dark ? "dark-font dark-button" : "light-font button"}>
+                                            <p className="other-font">
+                                            Gear
+                                            </p>            
+                                        </a>
+
+                                        <a href="/country/egypt" aria-current="page" className={dark ? "dark-font dark-button" : "light-font button"}>
+                                            <p className="other-font">
+                                            Contact
                                             </p>            
                                         </a>
                                 </div>
