@@ -1,7 +1,7 @@
 {
   "title": "Italy",
-  "logo": "/logo.svg",
-  "bigImage": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.tripsavvy.com%2Fthmb%2FMUoWpapOgGqHxVXtZaWYLFoDwnw%3D%2F3865x2576%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2Fitaly-rome-st-peters-basilica-at-sunset-543346433-58e23b265f9b58ef7e532287.jpg&f=1&nofb=1&ipt=7e95f43103f57f02b760f802bcd135faa222bcaf5bcd8d91cae100cfef43d5d6&ipo=images",
+  "dark": false,
+  "bigImage": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.blamethemonkey.com%2Fwp-content%2Fuploads%2F2014%2F01%2FElia-Locardi-Travel-Photography-Roman-Radiance-Rome-Italy-1440-WM-DM-60q.jpg&f=1&nofb=1&ipt=c64161f7fb2a867bd51369234d40f57e4bde6202c5007c06ad37f3be7c42fb53&ipo=images",
   "chapters": [
     {
       "chapter": "Chapter one: ",

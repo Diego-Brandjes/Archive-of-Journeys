@@ -1,7 +1,7 @@
 {
   "title": "Japan",
-  "logo": "/logo.svg",
-  "bigImage": "/fuji.jpg",
+  "dark": false,
+  "bigImage": "/okinawa.jpg",
   "chapters": [
     {
       "chapter": "Chapter one: Tokyo",

@@ -1,7 +1,7 @@
 {
   "title": "Egypt",
-  "logo": "/logo.svg",
-  "bigImage": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Falittlenomad.com%2Fwp-content%2Fuploads%2F2019%2F10%2Fpanorama-of-cairo.jpg&f=1&nofb=1&ipt=b028c72b82874b41bf1d90595b83d63662607d8c2b2f219668eee6e162bae075&ipo=images",
+  "dark": true,
+  "bigImage": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.tripsavvy.com%2Fthmb%2F_2DZHj0eLqgKFVYsLZRGXnpcsbo%3D%2F2120x1414%2Ffilters%3Afill(auto%2C1)%2Fhigh-angle-view-of-cairo-during-daytime--egypt-940395494-5c572f4246e0fb00013a2bb8.jpg&f=1&nofb=1&ipt=394f6b7b5ee090e3bdf0e1a874f7b3adce5d01e66c88edad2fd8a2e83d2f3a74&ipo=images",
   "chapters": [
     {
       "chapter": "Chapter one: The Sinai Peninsula ",
