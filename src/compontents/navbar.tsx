@@ -16,9 +16,9 @@ const Navbar: React.FC<NavbarProps> = ({ dark }) => {
                 </a>
 
                 {/* {/* BIGSCREEN NAVBAR */}
-                <div className="w-layout-hflex navbar_btns">
+                <div className="w-layout-hflex navbar_btns big-screen">
                     <div className="navbar_btns">
-                        <div className="block">
+                        <div className="block ">
                             
                             <div className={dark ? "dark-font dark-button" : "light-font button"} onClick={()=>{
                                 setLocation(!location)
@@ -78,61 +78,58 @@ const Navbar: React.FC<NavbarProps> = ({ dark }) => {
                             </div>
                             )}
                         </div>
-
-
-                    {/* <div className="nav-container" onClick={()=>setMore(!more)}>
-                        <input className="checkbox" type="checkbox" name="" id="" />
-                        <div className="hamburger-lines">
-                            <span className="line line1"></span>
-                            <span className="line"></span>
-                            <span className="line line3"></span>
-                        
-                     
-
-                    {more && (
-                        <div className="dropdown-content button fade-in">
-                            <a
-                                href="/gear"
-                                aria-current="page"
-                                className={dark ? "dark-font w--current" : "block light-font w--current"}
-                            >
-                                <p className="other-font">Japan</p>
-                            </a>
-                            <a
-                                href="/gear"
-                                aria-current="page"
-                                className={dark ? "dark-font w--current" : "block light-font w--current"}
-                            >
-                                <p className="other-font">Italy</p>
-                            </a>
-                            <a
-                                href="/gear"
-                                aria-current="page"
-                                className={dark ? "dark-font w--current" : "block light-font w--current"}
-                            >
-                                <p className="other-font">Egypt</p>
-                            </a>
-                            <a
-                                href="/gear"
-                                aria-current="page"
-                                className={dark ? "dark-font w--current" : "block light-font w--current"}
-                            >
-                                <p className="other-font">Gear</p>
-                            </a>
-                            <a
-                                href="/contact"
-                                aria-current="page"
-                                className={dark ? "dark-font w--current" : "block light-font w--current"}
-                            >
-                                <p className="other-font">Contact</p>
-                            </a>
-                        </div>
-                    )}
-                    </div>
-                    </div> */}
-                    
                     </div>
                 </div>
+
+
+
+                {/* {/* SMALL NAVBAR */}
+                <div className="w-layout-hflex burger-container small-screen">
+                    <div className="burger-container">
+                        <div className="block red">
+                            
+                            
+                            <div className={dark ? "hamburger-lines dark-font" : "hamburger-lines light-font light-button"} onClick={()=>{
+                                setLocation(!location)
+                                setMore(false)
+                            }}>
+                                <span className="line line1"></span>
+                                <span className="line"></span>
+                                <span className="line line3"></span>
+                            </div>
+
+                            {location && (
+                                    <div className="dropdown-content">
+                                        <a href="/country/japan" aria-current="page" className={dark ? "dark-font dark-button" : "light-font button"}>
+                                            <p className="other-font">
+                                            Japan
+                                            </p>            
+                                        </a>
+
+                                        <a href="/country/italy" aria-current="page" className={dark ? "dark-font dark-button" : "light-font button"}>
+                                            <p className="other-font">
+                                            Italy
+                                            </p>            
+                                        </a>
+
+                                        <a href="/country/egypt" aria-current="page" className={dark ? "dark-font dark-button" : "light-font button"}>
+                                            <p className="other-font">
+                                            Egypt
+                                            </p>            
+                                        </a>
+                                </div>
+                            )}
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+
+
+
+
+                
+                    
             </div>
         </section>
     );
