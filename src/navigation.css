@@ -43,7 +43,7 @@
 
 .dark-button:hover {
   animation: fadeInWhite 0.4s ease-in-out;
-  background-color: var(--secondary);
+  background-color: #fff2d3a4;
 }
 
 .block {
@@ -162,6 +162,6 @@
         background-color: #fff2d300;
     }
     to {
-        background-color: var(--secondary);
+        background-color: #fff2d3a4;
     }
 }

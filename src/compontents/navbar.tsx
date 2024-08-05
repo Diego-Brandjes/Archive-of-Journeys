@@ -64,18 +64,17 @@ const Navbar: React.FC<NavbarProps> = ({ dark }) => {
 
                             {more && (
                             <div className="dropdown-content">
-                                <a href="/contact" aria-current="page" className={dark ? "dark-font dark-button" : "light-font button"}>
-                                    <p className="other-font">
-                                    Contact
-                                    </p>            
-                                </a>
-
                                 <a href="/gear" aria-current="page" className={dark ? "dark-font dark-button" : "light-font button"}>
                                     <p className="other-font">
                                     Gear
                                     </p>            
                                 </a>
 
+                                <a href="/contact" aria-current="page" className={dark ? "dark-font dark-button" : "light-font button"}>
+                                    <p className="other-font">
+                                    Contact
+                                    </p>            
+                                </a>
                             </div>
                             )}
                         </div>
