@@ -1,103 +1,13 @@
-import { useState } from "react";
+import Navbar from "../../compontents/navbar";
 import "./home.css";
+
 
 function home() {
 
-  const [location, setLocation] = useState(false);
-  const [more, setmore] = useState(false);
   return (
     <body className="body primary">
-      <section className="navbar">
-        <div className="w-layout-hflex flex-block">
-          <a
-            href="/home"
-            aria-current="page"
-            className="logo-link w-inline-block w--current"
-          >
-            <img
-              src="/logo.svg"
-              loading="lazy"
-              alt=""
-              className="logo"
-            />
-          </a>
 
-
-
-          <div className="w-layout-hflex right navbar_btns">
-            <div className="w-layout-vflex button">
-              <div className="button light-font" onClick={()=>setLocation(!location)}>
-                <div>
-                  <p className="right other-font">
-                    Locations
-                  </p>
-                </div>
-              </div>
-
-              {location && (
-              <div className="button light-font">
-                <p className="right other-font">
-                  Japan
-                </p>            
-              </div>
-              )}
-
-              {location && (
-              <div className="button light-font">
-                <p className="right other-font">
-                  Egypt
-                </p>            
-              </div>
-              )}
-
-              {location && (
-              <div className="button light-font">
-                <p className="right other-font">
-                  Italy
-                </p>            
-              </div>
-              )}
-
-            </div>
-            
-            <div className="w-layout-vflex button">
-              <div className="button light-font" onClick={()=>setmore(!more)}>
-                <p className="right other-font">
-                  More
-                </p>
-              </div>
-
-              {more && (
-              <div className="button light-font">
-                <p className="right other-font">
-                  Contact
-                </p>            
-              </div>
-              )}
-
-              {more && (
-              <div className="button light-font">
-                <p className="right other-font">
-                  Gear
-                </p>            
-              </div>
-              )}
-
-            </div>
-          </div>
-
-
-
-
-
-          <div
-            className="w-nav-overlay"
-            data-wf-ignore=""
-            id="w-nav-overlay-2"
-          ></div>
-        </div>
-      </section>
-
+      <Navbar dark={false} />
       <section className="panel">
         <div className="imagefield">
           <img
@@ -111,8 +21,8 @@ function home() {
         
         <section className="infofield primary">
           <div className="div-block-overlap">
-            <h1 className="heading light-font">Matsumoto</h1>
-            <p className="paragraph light-font even-less-wide-text">
+            <h1 className="light-font">Matsumoto</h1>
+            <p className="light-font even-less-wide-text">
               Nestled in Japan's Nagano Prefecture, is renowned for its stunning
               alpine scenery and historical Matsumoto Castle. A cultural hub, it
               offers vibrant festivals, local crafts, and exquisite soba

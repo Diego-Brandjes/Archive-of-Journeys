@@ -1,54 +1,21 @@
+import Navbar from "../../compontents/navbar";
 import "./contact.css";
 
 function contact() {
 
   return (
-    <body className="body secondary">
-      <section className="navbar">
-        <div className="w-layout-hflex flex-block">
-          <a
-            href="/home"
-            aria-current="page"
-            className="logo-link w-inline-block w--current"
-          >
-            <img
-              src="/logo.svg"
-              loading="lazy"
-              alt=""
-              className="logo"
-            />
-          </a>
-          <div className="w-layout-hflex navbar_btns">
-            <div className="w-layout-vflex locations_box"></div>
-          </div>
-          <div
-            className="w-nav-overlay"
-            data-wf-ignore=""
-            id="w-nav-overlay-2"
-          ></div>
-        </div>
-      </section>
-
-      <section className="panel">
-        <div className="full-image">
-          <img
-            src="/egypt-palm.jpg"
-            loading="lazy"
-            sizes="100vw"
-            alt=""
-            className="big-image"
-          />
-        </div>
+    <body className="body-image secondary">
+      <Navbar dark={false} />
         
         <div className="spacer"></div>
         
         <section className="infofield-transparent">
-          <div className="div-block-overlap">
-            <p className="paragraph light-font even-less-wide-text">
+          <div className="div-block-no-overlap">
+            <p className="light-font even-less-wide-text">
             Based in the Netherlands with a passion for travel photography. 
             Exploring new places and capturing their atmosphere with a vintage tint. 
             </p>
-            <p className="paragraph light-font even-less-wide-text">
+            <p className="light-font even-less-wide-text">
             Follow my adventures and see the world through my eyes on this website or if you want a different experience 
             please check out my Instagram or other socials linked below. 
             </p>
@@ -66,8 +33,6 @@ function contact() {
             </a>
           </div>
         </section>
-      </section>
-
 
     </body>
   );
