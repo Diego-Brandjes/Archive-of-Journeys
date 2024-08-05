@@ -3,9 +3,12 @@
 :root {
   
   font-family: "Sorts Mill Goudy", sans-serif;
+  font-weight: 100;
 
   --primary: #000000;
   --secondary: #fff2d3;
+  --thertiary:rgba(158, 87, 0, 0.452);
+
   --light-font-color: #fff2d3;
   --dark-font-color: #9e5700;
   --transparant: rgba(0, 0, 0, 0);
@@ -16,7 +19,6 @@
     margin-top: 0;
     margin-bottom: 0;
     font-style: italic;
-    font-weight: 100;
     line-height: 60%;
     font-size: 128px;
     letter-spacing: -7px;
@@ -27,7 +29,6 @@
     margin-top: 0;
     margin-bottom: 0;
     font-style: italic;
-    font-weight: 100;
     line-height: 100%;
     font-size: 60px;
     letter-spacing: 0px;
@@ -36,14 +37,12 @@
   p {
     font-style: normal;  
     font-size: 32px;
-    font-weight: 100;
     line-height: 100%;
   }
 
   a {
     font-style: normal;
     font-size: 36px;
-    font-weight: 100;
     text-decoration: none;
   }
  
@@ -57,6 +56,17 @@ html, body {
   text-align: left;
 }
 
+
+.body-image {
+  z-index: 10;
+
+  background-image: url("/egypt-palm.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  margin: 0;
+}
 .secondary {
   background-color: var(--secondary);
 }
@@ -66,6 +76,8 @@ html, body {
 }
 .other-font {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+
 }
 
 /* BOXES & CONTAINERS */
@@ -73,6 +85,7 @@ html, body {
   flex-direction: row;
   align-items: flex-start;
   display: flex;
+  width: 100%;
 }
 .w-layout-vflex {
   width: 100%;
@@ -116,16 +129,6 @@ html, body {
   top: auto;
   right: auto;
 }
-.fullpage {
-  width: 100%;              /* Full width */
-  height: 100vw;             /* Full height */
-  display: flex;            /* Flex container */
-  justify-content: center; /* Center horizontally */
-  align-items: center;     /* Center vertically */
-  text-align: center;      /* Center text inside the div */
-  background-color: var(--secondary); /* Optional: background color */
-}
-
 .panel {
   width: 100%;
   height: auto;
@@ -142,562 +145,190 @@ html, body {
 
 
 
-@media screen and (max-width: 990px) {
-  .body {
-    height: auto;
+@media screen and (max-width: 1200px) {
+  
+  :root {
+  
+    h1 {
+      line-height: 55%;
+      font-size: 110px;
+      letter-spacing: -7px;
+    }
+  
+    h2 {
+      line-height: 100%;
+      font-size: 50px;
+      letter-spacing: 0px;
+    }
+  
+    p {
+      font-size: 30px;
+      line-height: 100%;
+    }
+  
+    a {
+      font-size: 36px;
+    }
+   
   }
-
-  .flex-block {
-    flex-flow: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .location_btn {
-    margin-right: 0;
-    padding-right: 20px;
+  
+  .navbar_btns {
     display: none;
   }
-
-  .menu_btn {
-    width: 80%;
+  .block {
     display: none;
-  }
-
-  .menu-icon {
-    color: #fff2d3;
-    text-align: left;
-    justify-content: center;
-    align-items: center;
-    margin-top: -53px;
-    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
-    display: flex;
-  }
-
-  .flex-block-2 {
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    flex-flow: row;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    padding-right: 0;
-    display: flex;
-  }
-
-  .infofield {
-    height: 300px;
-    margin-bottom: 0;
-  }
-
-  .heading {
-    letter-spacing: -4px;
-    height: auto;
-    margin-top: 0;
-    font-size: 60px;
-  }
-
-  .paragraph {
-    width: 80%;
-    font-size: 20px;
-    line-height: 25px;
-  }
-
-  .imagefield {
-    height: 700px;
-  }
-
-  .image-3 {
-    object-fit: cover;
-    height: 100%;
-  }
-
-  .link.w--current {
-    font-size: 24px;
-  }
-
-  .flex-block-3 {
-    padding-left: 0;
-    display: none;
-  }
-
-  .hamburger-button {
-    height: 100%;
-    margin-bottom: 0;
-  }
-
-  .hamburger-button.w--open {
-    background-color: var(--transparant);
-    justify-content: center;
-    align-items: center;
-    display: block;
-  }
-
-  .hamburger-menu-item {
-    text-align: center;
-    border-radius: 0;
-    width: 100%;
-    margin-bottom: 1px;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 14px;
-  }
-
-  .hamburger-menu {
-    grid-column-gap: 16px;
-    grid-row-gap: 16px;
-    grid-template-rows: auto auto;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-columns: 1fr;
-    justify-content: center;
-    align-items: start;
-    justify-items: stretch;
-    width: 100%;
-    height: 100%;
-    margin: 0 0 -63px;
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 0;
-    display: block;
-  }
-
-  .hamburger-menu-list {
-    width: 50%;
-    padding-left: 46px;
-  }
-
-  .image-border {
-    border-width: 40px;
-    height: 400px;
-    margin-top: 40px;
-  }
-
-  .infofieldlight {
-    height: 300px;
-    margin-top: 0;
-    position: static;
-  }
-
-  .heading-copy {
-    letter-spacing: -4px;
-    height: auto;
-    margin-top: 0;
-    font-size: 60px;
-  }
-
-  .paragraph-copy {
-    font-size: 20px;
-    line-height: 25px;
-  }
-
-  .link-copy.w--current {
-    font-size: 24px;
-  }
-
-  .infofield-copy {
-    height: 300px;
-  }
-
-  .image-wide {
-    border-width: 40px;
-    height: 400px;
-    margin-top: 60px;
-  }
-
-  .imagefield-wborder-copy-copy {
-    border-width: 40px;
-    height: 400px;
-    margin-top: 110px;
-  }
-
-  .imagefield-wborder {
-    border-width: 40px;
-    height: 400px;
-    margin-top: 0;
-  }
-
-  .imagefield-wborder-copy-copy-copy-copy {
-    border-width: 40px;
-    height: 400px;
-    margin-top: 110px;
-  }
-
-  .container-2 {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .flex-block-4 {
-    width: 40%;
-  }
-
-  .heading-2 {
-    margin-top: 30px;
-    font-size: 30px;
-  }
-
-  .text-block-2 {
-    font-size: 20px;
-  }
-
-  .div-block-7 {
-    background-color: #fff2d3;
-    margin-top: 0;
-  }
-
-  .image-wide-copy, .imagefield-wborder-copy {
-    border-width: 40px;
-    height: 400px;
-    margin-top: 0;
-  }
-
-  .div-block-8 {
-    height: 250px;
-  }
-
-  .infofieldlight-copy {
-    height: 300px;
-    margin-top: 0;
-    position: static;
-  }
-
-  .link-block-2 {
-    width: 500px;
-    height: 100px;
-  }
-
-  .link-block-3 {
-    width: 65%;
-    height: auto;
   }
 }
 
-@media screen and (max-width: 770px) {
-  .menu-icon {
-    margin-top: 0;
-    font-size: 60px;
+@media screen and (max-width: 900px) {
+
+  :root {
+  
+    h1 {
+
+      line-height: 80%;
+      font-size: 90px;
+      letter-spacing: -7px;
+    }
+  
+    h2 {
+
+      line-height: 100%;
+      font-size: 40px;
+    }
+  
+    p {
+      font-size: 28px;
+      line-height: 100%;
+    }
+  
+    a {
+      font-size: 30px;
+    }
+   
   }
 
+  .div-block-overlap {
+    margin-top: -140px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+  }
+  .div-block-no-overlap {
+    padding-bottom: 20px;
+    padding-left: 40px;
+  }
   .infofield {
-    height: 350px;
-    margin-top: 0;
-    margin-bottom: 29px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .infofield-transparent {
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
 
-  .heading {
-    margin-top: 0;
-  }
-
-  .paragraph {
-    width: 70%;
-  }
-
-  .hamburger-menu-item {
-    width: auto;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .hamburger-menu {
-    margin-bottom: -8px;
-    margin-left: 0;
-  }
-
-  .hamburger-menu-list {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .infofieldlight {
-    height: 350px;
-    margin-top: 0;
-  }
-
-  .paragraph-copy {
-    width: 70%;
-  }
-
-  .infofield-copy {
-    margin-top: -147px;
-  }
-
-  .image-wide {
-    background-position: 25%;
-    margin-top: 0;
-  }
-
-  .imagefield-wborder {
-    background-position: 60%;
-  }
-
-  .flex-block-4 {
-    width: 40%;
-  }
-
-  .heading-2 {
-    margin-top: 20px;
-    font-size: 25px;
-  }
-
-  .text-block-2 {
-    font-size: 15px;
-  }
-
-  .image-wide-copy {
-    background-position: 15% 20%;
-    width: 100%;
-    margin-top: 0;
-  }
-
-  .imagefield-wborder-copy {
-    background-position: 40% 20%;
-  }
-
-  .div-block-8 {
-    height: 200px;
-  }
-
-  .infofieldlight-copy {
-    height: 350px;
-    margin-top: 0;
-  }
-
-  .flex-block-5 {
-    flex-flow: column;
-  }
-
-
-
-  .flex-block-6 {
-    flex-flow: column;
-  }
 }
 
-@media screen and (max-width: 480px) {
-  .location_btn {
-    height: 30px;
-    margin-top: auto;
-    margin-right: 0;
+@media screen and (max-width: 700px) {
+
+  :root {
+  
+    h1 {
+
+      line-height: 80%;
+      font-size: 70px;
+      letter-spacing: -4px;
+    }
+  
+    h2 {
+
+      line-height: 100%;
+      font-size: 35px;
+    }
+  
+    p {
+      font-size: 22px;
+      line-height: 100%;
+    }
+  
+    a {
+      font-size: 25px;
+    }
+   
   }
 
-  .menu-icon {
-    margin-top: 0;
-    font-size: 30px;
+  .div-block-overlap {
+    margin-top: -140px;
+    padding-bottom: 20px;
+    padding-left: 40px;
   }
-
-  .flex-block-2 {
-    margin-right: 0;
-    padding-right: 0;
-    display: block;
+  .div-block-no-overlap {
+    padding-bottom: 20px;
+    padding-left: 40px;
   }
-
-  .image {
-    margin-left: 10px;
-  }
-
   .infofield {
-    height: 350px;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .infofield-transparent {
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
 
-  .heading {
-    margin-top: 0;
-    font-size: 50px;
+  .flex-block-side {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }  
+}
+
+@media screen and (max-width: 500px) { 
+
+  :root {
+  
+    h1 {
+
+      line-height: 80%;
+      font-size: 50px;
+      letter-spacing: -2px;
+    }
+  
+    h2 {
+
+      line-height: 100%;
+      font-size: 25px;
+    }
+  
+    p {
+      font-size: 20px;
+      line-height: 110%;
+    }
+  
+    a {
+      font-size: 20px;
+    }
+   
+  }
+  .div-block-overlap {
+    margin-top: -140px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+  }
+  .div-block-no-overlap {
+    padding-bottom: 0px;
+    padding-left: 40px;
+  }
+  .infofield {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .infofield-transparent {
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
 
-  .paragraph {
-    width: 90%;
-    font-size: 15px;
-    line-height: 20px;
-  }
-
-  .imagefield {
-    width: 100%;
-    height: 500px;
-  }
-
-  .image-3 {
-    object-fit: cover;
-    height: 100%;
-  }
-
-  .link.w--current {
-    font-size: 15px;
-  }
-
-  .flex-block-3 {
-    display: none;
-  }
-
-  .hamburger-menu-item {
-    border-radius: 0;
-    width: 90px;
-    height: 20px;
-    margin: 0 0 1px;
-    padding: 4px 10px 22px;
-    font-size: 15px;
-    font-weight: 200;
-    line-height: 15px;
-  }
-
-  .hamburger-menu {
-    width: 100%;
-    margin-left: 0;
-  }
-
-  .hamburger-menu-list {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    position: absolute;
-  }
-
-  .image-border {
-    -webkit-text-fill-color: inherit;
-    background-image: url("https://cdn.prod.website-files.com/669fd653a78ebf02669a936a/66a044cf1bb31918b1b67c04_DSCF8915.jpg");
-    background-position: 65%;
-    background-size: cover;
-    background-clip: border-box;
-    height: 400px;
-    margin-top: 0;
-  }
-
-  .infofieldlight {
-    height: 300px;
-    margin-top: 0;
-    padding-left: 0;
-  }
-
-  .heading-copy {
-    font-size: 50px;
-  }
-
-  .paragraph-copy {
-    width: 90%;
-    font-size: 15px;
-    line-height: 20px;
-  }
-
-  .link-copy.w--current {
-    font-size: 15px;
-  }
-
-  .infofield-copy {
-    height: 0;
-    margin-top: -164px;
-    padding-left: 18px;
-  }
-
-  .image-wide {
-    -webkit-text-fill-color: inherit;
-    background-image: url("https://cdn.prod.website-files.com/669fd653a78ebf02669a936a/66a057d967d8703fc374667a_DSCF6948.jpg");
-    background-position: 15%;
-    background-clip: border-box;
-    height: 400px;
-    margin-top: 0;
-  }
-
-  .imagefield-wborder-copy-copy {
-    -webkit-text-fill-color: inherit;
-    background-image: url("https://cdn.prod.website-files.com/669fd653a78ebf02669a936a/66a044cf1bb31918b1b67c04_DSCF8915.jpg");
-    background-position: 65%;
-    background-size: cover;
-    background-clip: border-box;
-    height: 400px;
-    margin-top: 320px;
-  }
-
-  .imagefield-wborder {
-    -webkit-text-fill-color: inherit;
-    background-image: url("https://cdn.prod.website-files.com/669fd653a78ebf02669a936a/66a00048adca114c8154da72_DSCF7051%20-%20Copy.jpg");
-    background-position: 55%;
-    background-size: cover;
-    background-clip: border-box;
-    height: 400px;
-    margin-top: 0;
-  }
-
-  .imagefield-wborder-copy-copy-copy-copy {
-    -webkit-text-fill-color: inherit;
-    background-image: url("https://cdn.prod.website-files.com/669fd653a78ebf02669a936a/66a044cf1bb31918b1b67c04_DSCF8915.jpg");
-    background-position: 65%;
-    background-size: cover;
-    background-clip: border-box;
-    height: 400px;
-    margin-top: 320px;
-  }
-
-  .flex-block-4 {
-    width: 40%;
-  }
-
-  .utility-page-content {
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-
-  .heading-2 {
-    width: 100%;
-  }
-
-  .text-block-2 {
-    font-size: 15px;
-    font-weight: 100;
-  }
-
-  .image-4 {
-    width: 50%;
-  }
-
-  .body-2 {
-    background-color: #fff2d3;
-  }
-
-  .div-block-overlap, .div-block-no-overlap {
-    padding-left: 30px;
-  }
-
-  .image-wide-copy {
-    -webkit-text-fill-color: inherit;
-    background-image: url("https://cdn.prod.website-files.com/669fd653a78ebf02669a936a/66a161c02c63167108f234e1_slide3.jpg");
-    background-position: 15%;
-    background-size: cover;
-    background-clip: border-box;
-    width: 100%;
-    height: 400px;
-    margin-top: 0;
-  }
-
-  .imagefield-wborder-copy {
-    -webkit-text-fill-color: inherit;
-    background-image: url("https://cdn.prod.website-files.com/669fd653a78ebf02669a936a/66a1620729ab9f22d2896456_slide1.jpg");
-    background-position: 50%;
-    background-size: cover;
-    background-clip: border-box;
-    height: 400px;
-    margin-top: 0;
-  }
-
-  .div-block-8 {
+  .spacer {
     height: 100px;
   }
+  
 
-  .infofieldlight-copy {
-    height: 300px;
-    margin-top: 0;
-    padding-left: 0;
-  }
-
-  .link-block {
-    width: auto;
-  }
 }

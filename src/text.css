@@ -30,3 +30,35 @@
 .link-dark.w--current:hover {
     color: var(--text-hover-color);
 }
+
+@media screen and (max-width: 1200px) {
+
+    .less-wide-text {
+        width: 90%;
+    }
+    .even-less-wide-text {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .less-wide-text {
+        width: 90%;
+    }
+    .even-less-wide-text {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 700px) { 
+    
+
+    .less-wide-text {
+        width: 95%;
+    }
+    .even-less-wide-text {
+        width: 90%;
+    }
+}
+
