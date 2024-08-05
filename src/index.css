@@ -3,7 +3,7 @@
 :root {
   
   font-family: "Sorts Mill Goudy", sans-serif;
-  font-weight: 100;
+  font-weight: 300;
 
   --primary: #000000;
   --secondary: #fff2d3;
@@ -90,8 +90,6 @@ html, body {
 }
 .other-font {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 100;
-
 }
 
 /* BOXES & CONTAINERS */
