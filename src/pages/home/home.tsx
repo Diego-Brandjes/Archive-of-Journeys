@@ -82,25 +82,30 @@ function home() {
       </section>
 
       <section className="panel">
-      <div className="image-wide-border" style={{ backgroundImage: `url("/ohori-park.jpg")` }}></div>
-      <div className="image-wide-border" style={{ backgroundImage: `url("/fukuoka-stalls.jpg")` }}></div>
-
-        <section className="infofield secondary">
-          <div className="div-block-no-overlap">
-            <h1 className="heading dark-font">Fukuoka </h1>
-            <p className="paragraph dark-font even-less-wide-text">
+        <div className="imagefield">
+          <img
+            src="/fukuoka-stalls.jpg"
+            loading="lazy"
+            sizes="100vw"
+            alt=""
+            className="big-image"
+          />
+        </div>
+        <section className="infofield primary">
+          <div className="div-block-overlap">
+            <h1 className="heading light-font">Fukuoka</h1>
+            <p className="paragraph light-font even-less-wide-text">
               Fukuoka, a vibrant city on Japan's Kyushu island, is renowned for
               its lively yattai culture. These mobile food stalls line the
               streets, offering a variety of delicious local dishes such as
               ramen, tempura, and yakitori, creating a unique and charming
               dining experience.
             </p>
-            <a href="/" aria-current="page" className="link-dark w--current">
+            <a href="/contact" aria-current="page" className="link-light w--current">
               See more of the Fukuoka chapter →{" "}
             </a>
           </div>
         </section>
-        
       </section>
     </body>
   );
