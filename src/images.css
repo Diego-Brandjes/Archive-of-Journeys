@@ -35,51 +35,26 @@
     background-size: cover;
     background-attachment: fixed;
     background-clip: border-box;
-    border: 40px solid var(--primary);
+    border: 2px solid var(--secondary);
     width: 100%;
-    height: 800px;
+    height: 600px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
-.image-block-border-secondary {
-  opacity: 1;
-  background-position: 40% 100%;
-  background-size: cover;
-  background-attachment: fixed;
-  background-clip: border-box;
-  border: 40px solid var(--secondary);
+
+.image-block-border img {
   width: 100%;
-  height: 400px;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the div while maintaining aspect ratio */
+  object-position: center; /* Center the image within the div */
 }
-.image-block-border-secondary-dark {
-    opacity: 1;
-    background-position: 40% 100%;
-    background-size: cover;
-    background-attachment: fixed;
-    background-clip: border-box;
-    border: 40px solid var(--primary);
-    width: 100%;
-    height: 400px;
-}
+
 .big-image {
     display: block;
     width: 100%;
     height: auto;
 }
-.full-image-container {
-    width: 100%;
-    height: 900px; /* Set the desired height */
-    border: 80px solid var(--primary);
-    overflow: hidden; /* Ensures the image is cropped if necessary */
-    position: relative; /* Positioning for potential absolute child elements */
-  }
-  
-  .full-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
-    object-position: center; /* Centers the image within the container */
-  }
-
-
 
 .image-wide-border {
     background-position: 50%;
@@ -89,6 +64,32 @@
     border: 50px solid var(--secondary);
     width: auto;
     height: 600px;
+}
+
+.image-wide-title {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden; /* Ensure any overflow is hidden */
+}
+
+.image-wide-title img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the div while maintaining aspect ratio */
+  object-position: center; /* Center the image within the div */
+}
+
+.image-wide-title .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
 }
 
 
@@ -102,9 +103,12 @@
 }
 @media screen and (max-width: 900px) {
     .image-block-border {
-        background-position: 50% 0%;
-        width: 100%;
-        height: 400px;
+      background-position: 50% 0%;
+      border: 0px solid var(--primary);
+      width: 100%;
+      height: 400px;
+      margin-top: 5%;
+      margin-left: 0;
       }
   }
 @media screen and (max-width: 700px) { 
@@ -115,19 +119,6 @@
       height: 400px;
       margin-top: 5%;
     }
-    .image-block-border-secondary {
-      background-position: 50% 100%;
-      border: 0px solid var(--secondary);
-      width: 100%;
-      height: 300px;
-    }
-    .image-block-border-secondary-dark {
-        background-position: 50% 100%;
-        border: 0px solid var(--primary);
-        width: 100%;
-        height: 300px;
-    }
-
     .image-wide-border {
         height: 300px;
     }
