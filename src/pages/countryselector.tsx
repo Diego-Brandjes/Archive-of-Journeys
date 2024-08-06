@@ -12,9 +12,8 @@ interface Chapter {
 
 interface PageData {
   title: string;
-  dark: boolean;
   titlecolor: string;
-  bigImage: string;
+  dark: boolean;
   introduction: string;
   chapters: Chapter[];
 }
@@ -58,7 +57,7 @@ const CountrySelector: React.FC = () => {
   }
 
   return (
-    <div className="body primary light-font">
+    <div className={`body ${data.dark ? 'primary' : 'secondary'} light-font`}>
       <Navbar dark={data.dark} />
 
       <section className="panel">
@@ -68,15 +67,23 @@ const CountrySelector: React.FC = () => {
             <h3 className="title-font " style={{ color: data.titlecolor }}>{data.title}</h3>
         </div>
         
-            <p className='content'>{data.introduction}</p>        
+            <p className={`content ${data.dark ? 'light-font' : 'dark-font'}`}>{data.introduction}</p>        
       </section>
 
 
       <div className='spacer'></div>
 
       {data.chapters.map((item, index) => (
-        <a href={item.link} aria-current="page" className="link-light w--current clickable-div" key={index}>
-          <div className="w-layout-hflex flex-block-side">
+        <a href={item.link} aria-current="page" className={`w--current ${data.dark ? 'link-light' : 'link-light'}`} key={index}>
+
+<div className="w-layout-hflex flex-block-side">
+        <div className="image-wide-title">
+          {item.image ? (
+            <img src={item.image} alt="Image" />
+          ) : (
+            <div className="placeholder"></div>
+          )}
+          <div className="overlay">
             <section className="infofield-transparent less-wide-text">
               <div className="div-block-no-overlap">
                 <h2>{item.chapter}</h2>
@@ -85,8 +92,9 @@ const CountrySelector: React.FC = () => {
                 ))}
               </div>
             </section>
-            <div className="image-block-border-secondary-dark" style={{ backgroundImage: `url(${item.image})` }}></div>
           </div>
+        </div>
+      </div>
         </a>
       ))}
     </div>

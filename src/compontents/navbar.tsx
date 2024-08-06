@@ -12,7 +12,7 @@ const Navbar: React.FC<NavbarProps> = ({ dark }) => {
             <div className="navbar">
             <div className="w-layout-hflex flex-block">
                 <a href="/home" aria-current="page" className="">
-                    <img src={dark ? "/logo-dark.svg" : "/logo.svg"} loading="lazy" alt="" className="logo" />
+                    <img src={dark ? "/logo.svg" : "/logo-dark.svg"} loading="lazy" alt="" className="logo" />
                 </a>
 
                 {/* {/* BIGSCREEN NAVBAR */}
@@ -20,15 +20,22 @@ const Navbar: React.FC<NavbarProps> = ({ dark }) => {
                     <div className="navbar_btns">
                         <div className="block">
                             <p className="other-font">
-                                <a href="#menu" className={dark ? "dark-font other-font" : "light-font other-font"}>Menu</a>
+                                <a href="#menu" className={dark ? "light-font other-font" : "dark-font other-font"}>Menu</a>
                             </p>
                         </div>
                         
                         <div className="block">
                             <p className="other-font">
-                                <a href="/contact" className={dark ? "dark-font other-font dark-button" : "light-font other-font light-button"}>Contact</a>
+                                <a href="/contact" className={dark ? "light-font other-font" : "dark-font other-font"}>Contact</a>
                             </p>            
                         </div>
+
+                        {/*Toggle for darkmode  */}
+                        {/* <div className="block">
+                            <p className="other-font">
+                                <a href="#" className={dark ? "light-font other-font" : "dark-font other-font"}>☀</a>
+                            </p> 
+                        </div> */}
 
                     </div>
                 </div>
@@ -37,16 +44,14 @@ const Navbar: React.FC<NavbarProps> = ({ dark }) => {
                 <div className="w-layout-hflex burger-container small-screen">
                     <div className="burger-container">
                         <a href="#menu" className="block ">
-                            <div className={dark ? "hamburger-lines dark-font" : "hamburger-lines light-font light-button"} onClick={() => {
+                            <div className={dark ? "hamburger-lines light-font" : "hamburger-lines dark-font"} onClick={() => {
                                 setLocation(!location);
                             }}>
-                                <span className={dark ? "dark-line line1" : "line line1"}></span>
-                                <span className={dark ? "dark-line line2" : "line line2"}></span>
-                                <span className={dark ? "dark-line line3" : "line line3"}></span>
+                                <span className={dark ? "line line1" : "dark-line line1"}></span>
+                                <span className={dark ? "line line2" : "dark-line line2"}></span>
+                                <span className={dark ? "line line3" : "dark-line line3"}></span>
                             </div>
-                        </a>
-
-                       
+                        </a>   
                     </div>
                 </div>
             </div>
@@ -83,14 +88,7 @@ const Navbar: React.FC<NavbarProps> = ({ dark }) => {
                         </div>
                     </div>
             </div>
-
-
         </section>
-
-
-
-
-
     );
 }
 

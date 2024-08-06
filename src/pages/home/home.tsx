@@ -7,7 +7,7 @@ function home() {
   return (
     <body className="body primary">
 
-      <Navbar dark={false} />
+      <Navbar dark={true} />
       <section className="panel">
         <div className="imagefield">
           <img
