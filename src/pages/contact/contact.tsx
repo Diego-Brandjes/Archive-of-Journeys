@@ -5,7 +5,7 @@ function contact() {
 
   return (
     <body className="body-image secondary">
-      <Navbar dark={false} />
+      <Navbar dark={true} />
         
         <div className="spacer"></div>
         
