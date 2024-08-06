@@ -83,9 +83,6 @@ html, body {
   font-family: 'Roboto', sans-serif;
   font-size: 33rem; /* Base font size */
 }
-.colorful {
-  color: var(--text-hover-color);
-}
 
 /* BOXES & CONTAINERS */
 .w-layout-hflex {
@@ -175,12 +172,10 @@ html, body {
   padding-right: 100px;
 }
 
-
+/* POPUP MENU STYLING */
 .popover {
   display: none;
-  box-shadow: 0px 6px 8px rgba(19, 19, 19, .7);
 }
-
 .popover:target {
  position: absolute;
  right: 0;
@@ -191,7 +186,6 @@ html, body {
  align-items: center;
  justify-content: center;
 }
-
 .popover .content {
  display: flex;
  align-items: center;
@@ -199,27 +193,20 @@ html, body {
  position: relative;
  width: 0;
  height: 0;
- color: #fff;
- background-color: #191919;
  animation: 1s grow ease forwards;
  text-align: center;
 }
-
 .nav_list  {
  list-style-type: none;
 }
-
 .nav_list a {
  text-decoration: none;
  font-size: 50px;
- color: #fff;
 }
-
 .nav_list_item {
  height: 100%;
  overflow: hidden;
 }
-
 .nav_list li {
  padding: 15px 0;
  text-transform: uppercase;
@@ -228,7 +215,6 @@ html, body {
  animation: 2s slideUp ease forwards .5s;
  position: relative;
 }
-
 .nav_list li::before {
  content: '';
  position: absolute;
@@ -236,20 +222,16 @@ html, body {
  width: 0px;
  left: 0;
  bottom: 10px;
- background: #BF2E97; 
  transition: all .5s ease;
 }
-
 .nav_list li:hover:before {
      width: 100%;
 }
-
 .popover p {
  padding: 50px;
  opacity: 0;
  animation: 1s fadeIn ease forwards 1s;
 }
-
 .popover .close::after {
  right: 0;
  top: 0;
@@ -261,13 +243,14 @@ html, body {
  font-size: 30px;
  align-items: center;
  justify-content: center;
- background-color: #BF2E97;
- color: #fff;
  content: "×";
  cursor: pointer;
  opacity: 0; 
  animation: 1s fadeIn ease forwards .5s;
 }
+
+
+
 
 @keyframes grow {
  100% {
@@ -275,20 +258,17 @@ html, body {
    width: 90%;
 }
 }
-
 @keyframes fadeIn {
 100% {
  opacity: 1;
 }
 }
-
 @keyframes slideUp {
  100% {
    transform: translateY(0);
    opacity: 1;
  }
 }
-
 
 @media screen and (max-width: 1200px) {
   
@@ -323,7 +303,6 @@ html, body {
     font-size: 20rem; /* Base font size */
   }
 }
-
 @media screen and (max-width: 900px) {
 
   :root {
@@ -374,9 +353,13 @@ html, body {
     font-family: 'Roboto', sans-serif;
     font-size: 15rem; /* Base font size */
   }
+  .flex-block-side {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }  
 
 }
-
 @media screen and (max-width: 700px) {
 
   :root {
@@ -413,6 +396,8 @@ html, body {
   .div-block-no-overlap {
     padding-bottom: 20px;
     padding-left: 40px;
+    padding-top: 40px;
+
   }
   .infofield {
     padding-bottom: 20px;
@@ -423,19 +408,12 @@ html, body {
     padding-top: 20px;
   }
 
-  .flex-block-side {
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-  }  
-
   .title-font {
     /* font-style: italic; */
     font-family: 'Roboto', sans-serif;
     font-size: 10rem; /* Base font size */
   }
 }
-
 @media screen and (max-width: 500px) { 
 
   :root {
@@ -471,6 +449,8 @@ html, body {
   .div-block-no-overlap {
     padding-bottom: 0px;
     padding-left: 40px;
+    padding-top: 40px;
+
   }
   .infofield {
     padding-bottom: 20px;
