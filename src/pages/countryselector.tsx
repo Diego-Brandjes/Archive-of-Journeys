@@ -13,7 +13,9 @@ interface Chapter {
 interface PageData {
   title: string;
   dark: boolean;
+  titlecolor: string;
   bigImage: string;
+  introduction: string;
   chapters: Chapter[];
 }
 
@@ -45,7 +47,7 @@ const CountrySelector: React.FC = () => {
 
   if (loading) {
     return (
-        <div className="full-image fullpage">
+        <div className="">
           {/* blank page */}
       </div>
     );
@@ -56,31 +58,26 @@ const CountrySelector: React.FC = () => {
   }
 
   return (
-    <div className="body secondary font-dark">
+    <div className="body primary light-font">
       <Navbar dark={data.dark} />
 
       <section className="panel">
-        <div className="imagefield">
-          <img
-            src={data.bigImage}
-            loading="lazy"
-            sizes="100vw"
-            alt=""
-            className="big-image"
-          />
+        <div className='spacer'></div>
+
+        <div className='w-layout-vflex title-box'>
+            <h3 className="title-font " style={{ color: data.titlecolor }}>{data.title}</h3>
         </div>
         
-        <section className="infofield-transparent">
-          <div className="div-block-no-overlap">
-            <h1 className="dark-font">{data.title}</h1>
-          </div>
-        </section>
+            <p className='content'>{data.introduction}</p>        
       </section>
 
+
+      <div className='spacer'></div>
+
       {data.chapters.map((item, index) => (
-        <a href={item.link} aria-current="page" className="link-dark w--current clickable-div" key={index}>
+        <a href={item.link} aria-current="page" className="link-light w--current clickable-div" key={index}>
           <div className="w-layout-hflex flex-block-side">
-            <section className="infofield secondary less-wide-text">
+            <section className="infofield-transparent less-wide-text">
               <div className="div-block-no-overlap">
                 <h2>{item.chapter}</h2>
                 {item.paragraphs.map((paragraph, i) => (
@@ -88,7 +85,7 @@ const CountrySelector: React.FC = () => {
                 ))}
               </div>
             </section>
-            <div className="image-block-border-secondary" style={{ backgroundImage: `url(${item.image})` }}></div>
+            <div className="image-block-border-secondary-dark" style={{ backgroundImage: `url(${item.image})` }}></div>
           </div>
         </a>
       ))}

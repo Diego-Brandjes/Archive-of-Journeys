@@ -1,7 +1,9 @@
 {
-  "title": "Italy",
+  "title": "ITALIA",
+  "titlecolor": "green",
   "dark": false,
   "bigImage": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.blamethemonkey.com%2Fwp-content%2Fuploads%2F2014%2F01%2FElia-Locardi-Travel-Photography-Roman-Radiance-Rome-Italy-1440-WM-DM-60q.jpg&f=1&nofb=1&ipt=c64161f7fb2a867bd51369234d40f57e4bde6202c5007c06ad37f3be7c42fb53&ipo=images",
+  "introduction": "Japan, an island nation in East Asia, blends ancient traditions with cutting-edge technology. Known for its stunning landscapes, including Mount Fuji and cherry blossoms, Japan boasts vibrant cities like Tokyo and Kyoto. Its rich culture includes sushi, tea ceremonies, and a deep respect for history and nature.",
   "chapters": [
     {
       "chapter": "Chapter one: ",

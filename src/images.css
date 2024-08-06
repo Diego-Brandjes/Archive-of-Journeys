@@ -6,7 +6,29 @@
 .logo {
     max-width: 100%;
 }
-
+.body-image {
+    position: relative; /* Needed for the pseudo-element positioning */
+    z-index: 1;
+    background-image: url("/egypt-palm.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    opacity: 1;
+  }
+  
+  .body-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.301); /* Adjust the opacity as needed */
+    z-index: 0; /* Places the overlay above the background image */
+  }
+  
 .image-block-border {
     opacity: 1;
     background-position: 50% 0%;
@@ -27,20 +49,37 @@
   width: 100%;
   height: 400px;
 }
-.big-image {
-    object-fit: fill;
+.image-block-border-secondary-dark {
+    opacity: 1;
+    background-position: 40% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: border-box;
+    border: 40px solid var(--primary);
     width: 100%;
-    padding-top: 0;
-    font-weight: 100;
+    height: 400px;
 }
-.full-image {
-    position: fixed;
-    top: 0;
-    left: 0;
+.big-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.full-image-container {
+    width: 100%;
+    height: 900px; /* Set the desired height */
+    border: 80px solid var(--primary);
+    overflow: hidden; /* Ensures the image is cropped if necessary */
+    position: relative; /* Positioning for potential absolute child elements */
+  }
+  
+  .full-image {
+    width: 100%;
     height: 100%;
-    z-index: 1;
-    overflow: hidden;
-}
+    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+    object-position: center; /* Centers the image within the container */
+  }
+
+
 
 .image-wide-border {
     background-position: 50%;
@@ -81,6 +120,12 @@
       border: 0px solid var(--secondary);
       width: 100%;
       height: 300px;
+    }
+    .image-block-border-secondary-dark {
+        background-position: 50% 100%;
+        border: 0px solid var(--primary);
+        width: 100%;
+        height: 300px;
     }
 
     .image-wide-border {

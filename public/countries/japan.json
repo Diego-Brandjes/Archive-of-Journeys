@@ -1,7 +1,9 @@
 {
-  "title": "Japan",
+  "title": "日本",
+  "titlecolor": "#ff5733",
   "dark": false,
   "bigImage": "/fuji.jpg",
+  "introduction": "Japan, an island nation in East Asia, blends ancient traditions with cutting-edge technology. Known for its stunning landscapes, including Mount Fuji and cherry blossoms, Japan boasts vibrant cities like Tokyo and Kyoto. Its rich culture includes sushi, tea ceremonies, and a deep respect for history and nature.",
   "chapters": [
     {
       "chapter": "Chapter one: Tokyo",

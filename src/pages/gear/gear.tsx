@@ -10,7 +10,7 @@ return (
         <div className="w-layout-hflex flex-block-side">
             <section className="infofield primary">
                 <div className="div-block-no-overlap">
-                    <h1 className="light-font">My Gear</h1>
+                    <h2 className="light-font">Camera</h2>
                     <p className=" light-font">
                         The Fujifilm X-T30 II is a compact, versatile mirrorless camera that boasts 
                         a 26.1MP APS-C X-Trans CMOS 4 sensor and X-Processor 4.
@@ -32,7 +32,7 @@ return (
         <div className="image-block-border" style={{ backgroundImage: `url("/fuji-lens.jpg")` }}></div>
         <section className="infofield primary">
                 <div className="div-block-no-overlap">
-                    <h1 className="light-font">Lenses</h1>
+                    <h2 className="light-font">Lenses</h2>
                     <p className="light-font">
                         My main lens is the versatile Fujifilm 15-45mm lens, 
                         ideal for wide-angle shots and everyday use. 
