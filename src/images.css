@@ -78,7 +78,15 @@
   height: 100%;
   object-fit: cover; /* Ensures the image covers the div while maintaining aspect ratio */
   object-position: center; /* Center the image within the div */
+  filter:grayscale(1);
+  transition: filter 0.5s ease; /* Smooth transition for the hover effect */
 }
+
+a:hover .image-wide-title img {
+  /* filter: blur(2px); */
+  filter:grayscale(0);
+}
+
 
 .image-wide-title .overlay {
   position: absolute;

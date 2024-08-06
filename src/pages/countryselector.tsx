@@ -76,25 +76,25 @@ const CountrySelector: React.FC = () => {
       {data.chapters.map((item, index) => (
         <a href={item.link} aria-current="page" className={`w--current ${data.dark ? 'link-light' : 'link-light'}`} key={index}>
 
-<div className="w-layout-hflex flex-block-side">
-        <div className="image-wide-title">
-          {item.image ? (
-            <img src={item.image} alt="Image" />
-          ) : (
-            <div className="placeholder"></div>
-          )}
-          <div className="overlay">
-            <section className="infofield-transparent less-wide-text">
-              <div className="div-block-no-overlap">
-                <h2>{item.chapter}</h2>
-                {item.paragraphs.map((paragraph, i) => (
-                  <p key={i}>{paragraph}</p>
-                ))}
+          <div className="w-layout-hflex flex-block-side">
+            <div className="image-wide-title">
+              {item.image ? (
+                <img src={item.image} alt="Image" />
+              ) : (
+                <div className="placeholder"></div>
+              )}
+              <div className="overlay">
+                <section className="infofield-transparent less-wide-text">
+                  <div className="div-block-no-overlap">
+                    <h2>{item.chapter}</h2>
+                    {item.paragraphs.map((paragraph, i) => (
+                      <p key={i}>{paragraph}</p>
+                    ))}
+                  </div>
+                </section>
               </div>
-            </section>
+            </div>
           </div>
-        </div>
-      </div>
         </a>
       ))}
     </div>
