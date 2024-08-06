@@ -25,32 +25,6 @@
     margin-right: 10px;
 }
 
-.button {
-    display: flex;
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-}
-.dark-button {
-    display: flex;
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-}
-
-.button:hover {
-  animation: fadeInBlack 0.4s ease-in-out;
-  color: var(--text-hover-color);
-
-  background-color: #fff2d328;
-}
-
-.dark-button:hover {
-  animation: fadeInWhite 0.4s ease-in-out;
-  color: var(--text-hover-color);
-  background-color: #fff2d3a4;
-}
-
 .block {
     position: relative;
     width: 100%;
@@ -95,7 +69,6 @@
     justify-content: center; /* Align items to the end of the flex container */
     position: relative;
     height: auto;
-    margin-right: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
 }
@@ -113,7 +86,7 @@
   
 .burger-container .hamburger-lines .line {
   display: block;
-  height: 5px;
+  height: 3px;
   width: 100%;
   background: var(--secondary);
 }

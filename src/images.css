@@ -29,26 +29,6 @@
     z-index: 0; /* Places the overlay above the background image */
   }
   
-.image-block-border {
-    opacity: 1;
-    background-position: 50% 0%;
-    background-size: cover;
-    background-attachment: fixed;
-    background-clip: border-box;
-    border: 2px solid var(--secondary);
-    width: 100%;
-    height: 600px;
-    margin-bottom: 100px;
-    margin-right: 50px;
-    margin-left: 50px;
-}
-
-.image-block-border img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensures the image covers the div while maintaining aspect ratio */
-  object-position: center; /* Center the image within the div */
-}
 
 .big-image {
     display: block;
