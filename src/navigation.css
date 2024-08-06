@@ -55,6 +55,7 @@
     position: relative;
     width: 100%;
     height: auto;
+    margin-right: 50px;
 }
 
 .block a::after {
@@ -95,6 +96,8 @@
     position: relative;
     height: auto;
     margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
   
 .burger-container .hamburger-lines {
