@@ -57,14 +57,13 @@
   width: 100%;
   height: 100%;
   object-fit: cover; /* Ensures the image covers the div while maintaining aspect ratio */
-  object-position: center; /* Center the image within the div */
-  filter: grayscale(0); /* Initial filter state */
-  filter: brightness(1.0);
-  transition: filter 0.5s ease; /* Smooth transition for the filter effect */
+  object-position: center; /* Centers the image within the div */
+  filter: grayscale(1) brightness(1.0); /* Start with grayscale and normal brightness */
+  transition: filter 0.5s ease-in-out; /* Smooth transition for the filter effect */
 }
 
 a:hover .image-wide-title img {
-  filter: brightness(0.5) grayscale(1); /* Combined filter state on hover */
+  filter: grayscale(0) brightness(0.5); /* Adjust brightness and remove grayscale on hover */
 }
 
 
