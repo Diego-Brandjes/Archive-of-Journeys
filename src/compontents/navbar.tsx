@@ -4,12 +4,8 @@ interface NavbarProps {
   dark?: boolean;
 }
 
-interface Country {
-    name: string;
-}
-
 const Navbar: React.FC<NavbarProps> = ({ dark }) => {
-  const [countries, setCountries] = useState<Country[]>([]);
+  const [countries, setCountries] = useState<String[]>([]);
   
   useEffect(() => {
     const fetchCountries = async () => {
@@ -17,21 +13,9 @@ const Navbar: React.FC<NavbarProps> = ({ dark }) => {
         // Fetch the configuration file
         const configResponse = await fetch('/config.json');
         const config = await configResponse.json();
-        const countryFiles = config.countries;
+        const countries: String[] = config.countries;
 
-        // Fetch each country file based on the list from config
-        const countryDataPromises = countryFiles.map(file =>
-          fetch(`/countries/${file}`)
-            .then(res => res.json())
-            .catch(error => {
-              console.error(`Error fetching ${file}:`, error);
-              return null; // Return null if there's an error
-            })
-        );
-
-        const countriesData = await Promise.all(countryDataPromises);
-        const validCountries = countriesData.filter(country => country !== null);
-        setCountries(validCountries);
+        setCountries(countries);
       } catch (error) {
         console.error('Error fetching country data:', error);
       }
@@ -102,7 +86,7 @@ const Navbar: React.FC<NavbarProps> = ({ dark }) => {
 
               {countries.map((country, index) => (
                 <div key={index} className="nav_list_item">
-                  <li><a href={`/country/${country.name.toLowerCase()}`}>{country.name}</a></li>
+                  <li><a href={`/country/${country.toLowerCase()}`}>{country}</a></li>
                 </div>
               ))}
 
