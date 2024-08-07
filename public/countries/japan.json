@@ -8,7 +8,7 @@
     {
       "chapter": "Chapter one: Tokyo",
       "image": "/tokyo-bay.jpg",
-      "link": "/tokyo",
+      "link": "#tokyo",
       "paragraphs": [
         "Returning in late March, I witnessed the Cherry Blossoms at their end, adding to the city's charm.",
         "Tokyo became a cherished home, filled with unforgettable memories and vibrant culture.",
@@ -18,7 +18,7 @@
     {
       "chapter": "Chapter two: Yamanashi",
       "image": "/yamanashi.jpg",
-      "link": "/yamanashi",
+      "link": "#yamanashi",
       "paragraphs": [
         "Yamanashi is known for its beautiful mountains and cozy rural towns.",
         "I spend some time here cycling through the region and going to multiple shrines.",
@@ -28,7 +28,7 @@
     {
       "chapter": "Chapter three: Osaka & Nara",
       "image": "/osaka.jpg",
-      "link": "/osaka-nara",
+      "link": "#osaka-nara",
       "paragraphs": [
         "Osaka's vibrant city life and Nara's historic temples offered contrasting yet complementary experiences.",
         "I explored bustling markets and serene shrines.",
@@ -38,7 +38,7 @@
     {
       "chapter": "Chapter four: Hiking the Nakasendo",
       "image": "/nakasendo.jpg",
-      "link": "/nakasendo",
+      "link": "#nakasendo",
       "paragraphs": [
         "Hiking the Nakasendo Trail was a journey through time, tracing ancient paths between Kyoto and Tokyo.",
         "Nature and history intertwined.",
@@ -48,7 +48,7 @@
     {
       "chapter": "Chapter five: Traveling south",
       "image": "/fukuoka.jpg",
-      "link": "/fukuoka",
+      "link": "#fukuoka",
       "paragraphs": [
         "Traveling south to Hiroshima and later on Fukuoka revealed coastal beauty and rich cultural heritage.",
         "I tried the regional cuisine and saw many scenic views such as Miyajima.",
@@ -58,7 +58,7 @@
     {
       "chapter": "Chapter six: Okinawa",
       "image": "/okinawa.jpg",
-      "link": "/okinawa",
+      "link": "#okinawa",
       "paragraphs": [
         "Okinawa's tropical climate and unique traditions provided a relaxing yet enlightening experience.",
         "Enjoying the pristine beaches and local customs was an amazing experience.",
