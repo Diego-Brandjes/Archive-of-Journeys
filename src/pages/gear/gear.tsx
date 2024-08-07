@@ -10,7 +10,7 @@ return (
 
         <a aria-current="page" className='link-light'>
             <div className="w-layout-hflex flex-block-side">
-                <div className="image-wide-title">
+                <div className="image-wide-title short-length">
                     <img src="./xt30ii.jpg" alt="Image" />
 
                     <div className="overlay">
@@ -33,7 +33,7 @@ return (
 
         <a aria-current="page" className='link-light'>
             <div className="w-layout-hflex flex-block-side">
-                <div className="image-wide-title">
+                <div className="image-wide-title short-length">
                     <img src="./fuji-lens.jpg" alt="Image" />
 
                     <div className="overlay">
