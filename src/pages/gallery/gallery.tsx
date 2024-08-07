@@ -1,15 +1,27 @@
 import React from "react";
 import Navbar from "../../compontents/navbar";
 
+import { RowsPhotoAlbum } from "react-photo-album";
+import "react-photo-album/rows.css";
+
+
+const photos = [
+    { src: "/fuji.jpg", width: 800, height: 600 },
+    { src: "/osaka.jpg", width: 1600, height: 900 },
+    { src: "/shibuya.jpg", width: 1600, height: 900 },
+    { src: "/fuji.jpg", width: 1600, height: 900 },
+
+  ];
+  
 const GalleryPage: React.FC = () => {
   return (
-<body className="body primary">
-      <Navbar dark={true} />
+    <body className="body primary">
+      <Navbar dark={true}/>
 
-
+        {/* Title part */}
         <div className="w-layout-hflex flex-block-side">
             <div className="image-wide-title2 long-length">
-                <img src="./shibuya.jpg" alt="Image" />
+                <img src="./shibuya.jpg" alt="Image"/>
 
                 <div className="overlay">
                     <div className='w-layout-vflex title-box'>
@@ -19,11 +31,11 @@ const GalleryPage: React.FC = () => {
             </div>
         </div>
 
-
+        {/* First picture */}
         <a aria-current="page" className='link-light'>
             <div className="w-layout-hflex flex-block-side">
                 <div className="image-wide-title2 short-length">
-                    <img src="./xt30ii.jpg" alt="Image" />
+                    <img src="./xt30ii.jpg" alt="Image"/>
 
 
                     <div className="overlay">
@@ -46,34 +58,32 @@ const GalleryPage: React.FC = () => {
         <div className="w-layout-hflex flex-block-side">
             <a aria-current="page" className='link-light'>
                 <div className="image-wide-title short-length">
-                    <img src="./xt30ii.jpg" alt="Image" />
+                    <img src="./xt30ii.jpg" alt="Image"/>
                 </div>
             </a>
             <a aria-current="page" className='link-light'>
                 <div className="image-wide-title short-length">
-                    <img src="./xt30ii.jpg" alt="Image" />
+                    <img src="./xt30ii.jpg" alt="Image"/>
                 </div>
             </a>
         </div>
+
         <div className="w-layout-hflex flex-block-side">
             <a aria-current="page" className='link-light'>
                 <div className="image-wide-title short-length">
-                    <img src="./xt30ii.jpg" alt="Image" />
+                    <img src="./xt30ii.jpg" alt="Image"/>
                 </div>
             </a>
             <a aria-current="page" className='link-light'>
                 <div className="image-wide-title short-length">
-                    <img src="./xt30ii.jpg" alt="Image" />
+                    <img src="./xt30ii.jpg" alt="Image"/>
                 </div>
             </a>
         </div>
 
-
+        <RowsPhotoAlbum photos={photos}/>
 
         <div className="spacer"></div>
-
-
-      
     </body>
   );
 };
