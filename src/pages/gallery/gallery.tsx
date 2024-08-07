@@ -1,18 +1,6 @@
 import React from "react";
 import Navbar from "../../compontents/navbar";
 
-import { RowsPhotoAlbum } from "react-photo-album";
-import "react-photo-album/rows.css";
-
-
-const photos = [
-    { src: "/fuji.jpg", width: 800, height: 600 },
-    { src: "/osaka.jpg", width: 1600, height: 900 },
-    { src: "/shibuya.jpg", width: 1600, height: 900 },
-    { src: "/fuji.jpg", width: 1600, height: 900 },
-
-  ];
-  
 const GalleryPage: React.FC = () => {
   return (
     <body className="body primary">
@@ -80,8 +68,6 @@ const GalleryPage: React.FC = () => {
                 </div>
             </a>
         </div>
-
-        <RowsPhotoAlbum photos={photos}/>
 
         <div className="spacer"></div>
     </body>
