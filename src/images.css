@@ -66,7 +66,6 @@
   width: 100%;
   overflow: hidden; /* Ensure any overflow is hidden */
 }
-
 .image-wide-title img {
   width: 100%;
   height: 100%;
@@ -75,12 +74,9 @@
   filter: grayscale(1) brightness(1.0); /* Start with grayscale and normal brightness */
   transition: filter 0.5s ease-in-out; /* Smooth transition for the filter effect */
 }
-
 a:hover .image-wide-title img {
   filter: grayscale(0) brightness(0.5); /* Adjust brightness and remove grayscale on hover */
 }
-
-
 .image-wide-title .overlay {
   position: absolute;
   top: 0;
@@ -92,6 +88,56 @@ a:hover .image-wide-title img {
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
 }
+
+
+
+
+.image-wide-title2 {
+  position: relative;
+  width: 100%;
+  overflow: hidden; /* Ensure any overflow is hidden */
+}
+.image-wide-title2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the div while maintaining aspect ratio */
+  object-position: center; /* Centers the image within the div */
+  filter: grayscale(0) brightness(1); /* Start with grayscale and normal brightness */
+  transition: filter 0.5s ease-in-out; /* Smooth transition for the filter effect */
+}
+a:hover .image-wide-title2 img {
+  filter: grayscale(1) brightness(0.5); /* Adjust brightness and remove grayscale on hover */
+}
+.image-wide-title2 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+}
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  opacity: 0; /* Hide the text initially */
+  transition: opacity 0.5s ease; /* Smooth transition for the text */
+}
+
+.image-wide-title2:hover .overlay-text {
+  opacity: 1; /* Show the text when the parent is hovered */
+}
+
+
+
 
 
 

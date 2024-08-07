@@ -8,8 +8,8 @@ const GalleryPage: React.FC = () => {
 
 
         <div className="w-layout-hflex flex-block-side">
-            <div className="image-wide-title long-length">
-                <img src="./fuji-lens.jpg" alt="Image" />
+            <div className="image-wide-title2 long-length">
+                <img src="./shibuya.jpg" alt="Image" />
 
                 <div className="overlay">
                     <div className='w-layout-vflex title-box'>
@@ -22,16 +22,14 @@ const GalleryPage: React.FC = () => {
 
         <a aria-current="page" className='link-light'>
             <div className="w-layout-hflex flex-block-side">
-                <div className="image-wide-title short-length">
+                <div className="image-wide-title2 short-length">
                     <img src="./xt30ii.jpg" alt="Image" />
 
 
-                    {/* Make this appear when hovering */}
                     <div className="overlay">
                     <section className="infofield-transparent less-wide-text">
                         <div className="div-block-no-overlap">
-                        <h2 className="light-font">Camera</h2>
-                        <a className=" light-font">
+                        <a className=" light-font overlay-text">
                             The Fujifilm X-T30 II
                             is a compact, versatile mirrorless camera that boasts 
                             a 26.1MP APS-C X-Trans CMOS 4 sensor and X-Processor 4.
