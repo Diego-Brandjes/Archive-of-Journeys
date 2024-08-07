@@ -1,10 +1,7 @@
 {
     "countries": [
-      "egypt.json",
-      "italy.json",
-      "france.json",
-      "korea.json",
-      "china.json",
-      "japan.json"
+      "egypt",
+      "italy",
+      "japan"
     ]
   }
