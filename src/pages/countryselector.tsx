@@ -77,7 +77,7 @@ const CountrySelector: React.FC = () => {
         <a href={item.link} aria-current="page" className={`w--current ${data.dark ? 'link-light' : 'link-light'}`} key={index}>
 
           <div className="w-layout-hflex flex-block-side">
-            <div className="image-wide-title">
+            <div className="image-wide-title short-length">
               {item.image ? (
                 <img src={item.image} alt="Image" />
               ) : (
