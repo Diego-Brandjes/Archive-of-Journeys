@@ -136,7 +136,7 @@
   width: 0;
   height: 0;
   background-color: #191919;
-  animation: 1s grow ease forwards;
+  animation: 0.5s grow ease forwards;
   text-align: center;
 }
 
@@ -160,7 +160,7 @@
   text-transform: uppercase;
   transform: translateY(200px);
   opacity: 0;
-  animation: 2s slideUp ease forwards .5s;
+  animation: 0.2s slideUp ease forwards 0.2s;
   position: relative;
 }
 
@@ -182,7 +182,7 @@
 .popover p {
   padding: 50px;
   opacity: 0;
-  animation: 1s fadeIn ease forwards 1s;
+  animation: 0.5s fadeIn ease forwards 0.5s;
 }
 
 .popover .close::after {
@@ -201,7 +201,7 @@
   content: "×";
   cursor: pointer;
   opacity: 0; 
-  animation: 1s fadeIn ease forwards .5s;
+  animation: 0.5s fadeIn ease forwards .5s;
 }
 
 .popover .close:hover::after {
