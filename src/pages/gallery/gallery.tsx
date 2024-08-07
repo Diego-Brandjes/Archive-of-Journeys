@@ -47,24 +47,24 @@ const GalleryPage: React.FC = () => {
 
         <div className="w-layout-hflex flex-block-side">
             <a aria-current="page" className='link-light'>
-                <div className="image-wide-title">
+                <div className="image-wide-title short-length">
                     <img src="./xt30ii.jpg" alt="Image" />
                 </div>
             </a>
             <a aria-current="page" className='link-light'>
-                <div className="image-wide-title">
+                <div className="image-wide-title short-length">
                     <img src="./xt30ii.jpg" alt="Image" />
                 </div>
             </a>
         </div>
         <div className="w-layout-hflex flex-block-side">
             <a aria-current="page" className='link-light'>
-                <div className="image-wide-title">
+                <div className="image-wide-title short-length">
                     <img src="./xt30ii.jpg" alt="Image" />
                 </div>
             </a>
             <a aria-current="page" className='link-light'>
-                <div className="image-wide-title">
+                <div className="image-wide-title short-length">
                     <img src="./xt30ii.jpg" alt="Image" />
                 </div>
             </a>
