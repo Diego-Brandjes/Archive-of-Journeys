@@ -60,16 +60,6 @@ const CountrySelector: React.FC = () => {
     <div className={`body ${data.dark ? 'primary' : 'secondary'} light-font`}>
       <Navbar dark={data.dark} />
 
-      <section className="panel">
-        <div className='spacer'></div>
-
-        <div className='w-layout-vflex title-box'>
-            <h3 className="title-font " style={{ color: data.titlecolor }}>{data.title}</h3>
-        </div>
-        
-            <p className={`content ${data.dark ? 'light-font' : 'dark-font'}`}>{data.introduction}</p>        
-      </section>
-
 
       <div className='spacer'></div>
 

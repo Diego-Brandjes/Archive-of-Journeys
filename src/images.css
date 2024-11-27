@@ -60,6 +60,10 @@
   height: 1200px;
 }
 
+.extra-space {
+  margin-left: 40px;
+  margin-right: 40px;
+}
 
 .image-wide-title {
   position: relative;

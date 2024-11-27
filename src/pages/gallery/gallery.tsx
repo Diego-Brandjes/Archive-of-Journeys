@@ -6,18 +6,6 @@ const GalleryPage: React.FC = () => {
     <body className="body primary">
       <Navbar dark={true}/>
 
-        {/* Title part */}
-        <div className="w-layout-hflex flex-block-side">
-            <div className="image-wide-title2 long-length">
-                <img src="./shibuya.jpg" alt="Image"/>
-
-                <div className="overlay">
-                    <div className='w-layout-vflex title-box'>
-                        <h3 className="title-font light-font">東京</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         {/* First picture */}
         <a aria-current="page" className='link-light'>
