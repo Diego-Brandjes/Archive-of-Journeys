@@ -13,7 +13,7 @@ import Contact from './pages/contact/contact.tsx'
 import Gear from './pages/gear/gear.tsx'
 import GalleryPage from './pages/gallery/gallery.tsx'
 import NotFound from './pages/notfound.tsx'
-import navbar from './compontents/navbar.tsx';
+// import navbar from './compontents/navbar.tsx';
 
 const router = createBrowserRouter([
   {
