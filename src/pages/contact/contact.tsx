@@ -1,5 +1,4 @@
 import Navbar from "../../compontents/navbar";
-import "./contact.css";
 
 function contact() {
 

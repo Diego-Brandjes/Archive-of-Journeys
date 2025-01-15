@@ -1,5 +1,4 @@
 import Navbar from "../../compontents/navbar";
-import "./gear.css";
 
 function gear() {
 
