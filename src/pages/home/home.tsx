@@ -9,7 +9,7 @@ function home() {
       <section className="panel">
         <div className="imagefield">
           <img
-            src="/matsumoto.jpg"
+            src="../public/matsumoto.jpg"
             loading="lazy"
             sizes="100vw"
             alt=""
@@ -82,7 +82,7 @@ function home() {
       <section className="panel">
         <div className="imagefield">
           <img
-            src="/fukuoka-stalls.jpg"
+            src="../public/fukuoka-stalls.jpg"
             loading="lazy"
             sizes="100vw"
             alt=""
